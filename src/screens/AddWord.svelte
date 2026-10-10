@@ -1,4 +1,5 @@
 <script lang="ts">
-  let { ondone }: { ondone?: () => void } = $props();
+  import type { Word } from '../lib/types';
+  let { edit, ondone }: { edit?: Word; ondone?: () => void } = $props();
 </script>
-<h1>Добавить слово</h1>
+<h1>{edit ? 'Редактировать' : 'Добавить слово'}</h1>

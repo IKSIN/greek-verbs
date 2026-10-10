@@ -1,0 +1,165 @@
+import type { Direction, Grade, ProgressMap, Word, WordChange } from './types';
+import { progressKey } from './types';
+import { emptyFilter, type WordFilter } from './filters';
+import { incNewSeen, loadSettings, newSeenToday, saveSettings, type Settings } from './settings';
+import { newCard, schedule } from './srs';
+import { todayISO } from './date';
+import { applyChange, createDictionaryRepo, DictionaryError, type DictionarySnapshot } from './dictionaryRepo';
+import { openProgressStore, type ProgressStore } from './progressStore';
+import { resolveRepoConfig } from './config';
+import { enqueuePending, flushPending, loadPending } from './pendingQueue';
+
+export type Tab = 'learn' | 'dictionary' | 'add' | 'settings';
+
+export const app = $state({
+  ready: false,
+  words: [] as Word[],
+  origin: 'bundled' as DictionarySnapshot['origin'],
+  progress: {} as ProgressMap,
+  settings: loadSettings(),
+  direction: 'el-ru' as Direction,
+  filter: emptyFilter(),
+  studyFilter: null as WordFilter | null,
+  tab: 'learn' as Tab,
+  toast: null as string | null,
+  pending: loadPending().length,
+});
+
+export const repoConfig = resolveRepoConfig(location, import.meta.env);
+
+let storePromise: Promise<ProgressStore> | null = null;
+export function store(): Promise<ProgressStore> {
+  return (storePromise ??= openProgressStore());
+}
+
+const repo = createDictionaryRepo(repoConfig, {
+  fetch: (input, init) => fetch(input, init),
+  cache: {
+    get: async () => (await store()).getCache<DictionarySnapshot>('dictionary'),
+    set: async (s) => (await store()).setCache('dictionary', s),
+  },
+  bundled: async () => (await import('../../data/words.json')).default as Word[],
+});
+
+let toastTimer: ReturnType<typeof setTimeout> | undefined;
+export function toast(msg: string): void {
+  app.toast = msg;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => (app.toast = null), 3500);
+}
+
+function reapplyPending(words: Word[]): Word[] {
+  return loadPending().reduce((ws, p) => {
+    try {
+      return applyChange(ws, p.change);
+    } catch {
+      return ws;
+    }
+  }, words);
+}
+
+export async function initApp(): Promise<void> {
+  app.progress = await (await store()).getAll();
+  await refreshDictionary(false);
+  app.ready = true;
+  if (navigator.onLine) void syncPending();
+}
+
+export async function refreshDictionary(notify = true): Promise<void> {
+  const snap = await repo.load(app.settings.githubToken || undefined);
+  app.words = reapplyPending(snap.words);
+  app.origin = snap.origin;
+  if (notify) {
+    toast(snap.origin === 'remote'
+      ? `Словарь обновлён: ${snap.words.length} слов`
+      : 'Нет связи с GitHub — показана сохранённая копия');
+  }
+}
+
+export async function gradeCard(word: Word, direction: Direction, grade: Grade): Promise<void> {
+  const key = progressKey(word.id, direction);
+  const today = todayISO();
+  const prev = app.progress[key];
+  // $state.snapshot: IndexedDB не умеет клонировать Svelte-прокси
+  const next = schedule(prev ? $state.snapshot(prev) : newCard(word.id, direction, today), grade, today);
+  app.progress[key] = next;
+  if (!prev) incNewSeen(direction, today);
+  await (await store()).put(next);
+}
+
+export function newLimit(direction: Direction): number {
+  return Math.max(0, app.settings.newPerDay - newSeenToday(direction, todayISO()));
+}
+
+export function updateSettings(s: Settings): void {
+  app.settings = s;
+  saveSettings(s);
+}
+
+async function forgetProgress(id: string): Promise<void> {
+  delete app.progress[progressKey(id, 'el-ru')];
+  delete app.progress[progressKey(id, 'ru-el')];
+  await (await store()).deleteWord(id);
+}
+
+async function queueChange(change: WordChange, author: string): Promise<boolean> {
+  enqueuePending({ change, author });
+  app.pending = loadPending().length;
+  try {
+    app.words = applyChange($state.snapshot(app.words), change);
+  } catch {
+    /* слово уже удалено — нечего применять локально */
+  }
+  if (change.type === 'delete') await forgetProgress(change.id);
+  toast('Нет сети — сохраню, когда появится связь');
+  return true;
+}
+
+export async function saveWordChange(change: WordChange): Promise<boolean> {
+  const { githubToken, name } = app.settings;
+  if (!repoConfig) {
+    toast('Репозиторий GitHub не определён');
+    return false;
+  }
+  if (!githubToken || !name) {
+    toast('Укажите имя и токен в настройках');
+    return false;
+  }
+  if (!navigator.onLine) return queueChange(change, name);
+  try {
+    const snap = await repo.commit(change, githubToken, name);
+    app.words = reapplyPending(snap.words);
+    app.origin = 'remote';
+    if (change.type === 'delete') await forgetProgress(change.id);
+    toast('Сохранено');
+    return true;
+  } catch (e) {
+    if (e instanceof DictionaryError && e.kind === 'network') return queueChange(change, name);
+    toast(e instanceof Error ? e.message : 'Не удалось сохранить');
+    return false;
+  }
+}
+
+export async function syncPending(): Promise<void> {
+  if (!app.pending || !repoConfig || !app.settings.githubToken) return;
+  const r = await flushPending(async (item) => {
+    try {
+      const snap = await repo.commit(item.change, app.settings.githubToken, item.author);
+      app.words = snap.words;
+      app.origin = 'remote';
+    } catch (e) {
+      // Неустранимая ошибка (например, правка удалённого слова) — выбрасываем изменение, чтобы не блокировать очередь
+      if (e instanceof DictionaryError && e.kind === 'other') {
+        toast(`Изменение отброшено: ${e.message}`);
+        return;
+      }
+      throw e;
+    }
+  });
+  app.pending = r.remaining;
+  app.words = reapplyPending($state.snapshot(app.words));
+  if (r.sent) toast(`Отправлено изменений: ${r.sent}`);
+  if (r.error && !(r.error instanceof DictionaryError && r.error.kind === 'network')) {
+    toast(r.error instanceof Error ? r.error.message : 'Не удалось отправить изменения');
+  }
+}

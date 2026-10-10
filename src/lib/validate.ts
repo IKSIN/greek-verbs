@@ -44,6 +44,7 @@ export function validateWords(ws: Word[]): string[] {
   for (const w of ws) {
     if (ids.has(w.id)) e.push(`дубликат id ${w.id}`);
     ids.add(w.id);
+    if (w.source !== 'base') continue; // у пользовательских слов омонимы допустимы
     const k = stripAccents((w.el ?? '').toLocaleLowerCase('el'));
     if (els.has(k)) e.push(`дубликат слова ${w.el}`);
     els.add(k);

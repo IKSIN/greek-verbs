@@ -43,3 +43,13 @@ describe('validateWords', () => {
     expect(e).toMatch('дубликат слова');
   });
 });
+
+describe('validateWords duplicates', () => {
+  const u1 = word({ id: 'a1', el: 'κολυμπάω', ru: 'плавать', source: 'user', addedBy: 'Саша' });
+  const u2 = word({ id: 'a2', el: 'κολυμπάω', ru: 'купаться', source: 'user', addedBy: 'Маша' });
+  it('allows user words with the same el', () => expect(validateWords([u1, u2])).toEqual([]));
+  it('rejects base words with the same el', () =>
+    expect(validateWords([base, { ...base, id: 'grafo-2' }]).join()).toMatch('дубликат слова'));
+  it('rejects duplicate ids of any source', () =>
+    expect(validateWords([u1, { ...u2, id: 'a1' }]).join()).toMatch('дубликат id'));
+});

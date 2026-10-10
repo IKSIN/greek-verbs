@@ -1,4 +1,4 @@
-import type { Direction, Grade, ProgressMap, Word, WordChange } from './types';
+import type { Direction, Grade, PracticeMap, ProgressMap, Word, WordChange } from './types';
 import { progressKey } from './types';
 import { emptyFilter, type WordFilter } from './filters';
 import { incNewSeen, loadSettings, newSeenToday, saveSettings, type Settings } from './settings';
@@ -8,6 +8,7 @@ import { applyChange, createDictionaryRepo, DictionaryError, RATE_LIMIT_MESSAGE,
 import { openProgressStore, type ProgressStore } from './progressStore';
 import { resolveRepoConfig } from './config';
 import type { SessionState } from './session';
+import { applyPracticeAnswer, type PracticeSession } from './practice';
 import { enqueuePending, flushPending, loadPending } from './pendingQueue';
 
 export type Tab = 'learn' | 'dictionary' | 'add' | 'settings';
@@ -17,6 +18,9 @@ export const app = $state({
   words: [] as Word[],
   origin: 'bundled' as DictionarySnapshot['origin'],
   progress: {} as ProgressMap,
+  practice: {} as PracticeMap,
+  practiceSession: null as PracticeSession | null,
+  practiceWord: null as Word | null,
   settings: loadSettings(),
   direction: 'el-ru' as Direction,
   filter: emptyFilter(),
@@ -64,9 +68,12 @@ function reapplyPending(words: Word[]): Word[] {
 export async function initApp(): Promise<void> {
   try {
     try {
-      app.progress = await (await store()).getAll();
+      const st = await store();
+      app.progress = await st.getAll();
+      app.practice = await st.getAllPractice();
     } catch {
       app.progress = {}; // хранилище прогресса недоступно — продолжаем с пустым
+      app.practice = {};
     }
     await refreshDictionary(false);
   } catch (e) {
@@ -101,6 +108,15 @@ export async function gradeCard(word: Word, direction: Direction, grade: Grade):
   await (await store()).put(next);
 }
 
+export async function gradePractice(word: Word, direction: Direction, grade: Grade): Promise<void> {
+  const key = progressKey(word.id, direction);
+  const prev = app.practice[key];
+  // $state.snapshot: IndexedDB не умеет клонировать Svelte-прокси
+  const next = applyPracticeAnswer(prev ? $state.snapshot(prev) : undefined, word.id, direction, grade, todayISO());
+  app.practice[key] = next;
+  await (await store()).putPractice($state.snapshot(next));
+}
+
 export function newLimit(direction: Direction): number {
   return Math.max(0, app.settings.newPerDay - newSeenToday(direction, todayISO()));
 }
@@ -113,6 +129,8 @@ export function updateSettings(s: Settings): void {
 async function forgetProgress(id: string): Promise<void> {
   delete app.progress[progressKey(id, 'el-ru')];
   delete app.progress[progressKey(id, 'ru-el')];
+  delete app.practice[progressKey(id, 'el-ru')];
+  delete app.practice[progressKey(id, 'ru-el')];
   await (await store()).deleteWord(id);
 }
 

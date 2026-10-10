@@ -26,15 +26,17 @@
     <p class="muted">{SOURCE_LABELS[word.source]}{word.addedBy ? ` · ${word.addedBy}` : ''} · {word.addedAt}</p>
   </section>
   <table class="progress">
-    <thead><tr><th></th><th>Статус</th><th>Следующий показ</th><th>Ошибок</th></tr></thead>
+    <thead><tr><th></th><th>Статус</th><th>Следующий показ</th><th>Ошибок</th><th>Тренировка</th></tr></thead>
     <tbody>
       {#each dirs as d (d)}
         {@const s = app.progress[progressKey(word.id, d)]}
+        {@const pr = app.practice[progressKey(word.id, d)]}
         <tr>
           <td>{DIRECTION_LABELS[d]}</td>
           <td>{STATUS_LABELS[statusOf(s)]}{isHard(s) ? ', трудное' : ''}</td>
           <td>{s?.due ?? '—'}</td>
           <td>{s?.lapses ?? 0}</td>
+          <td>{pr ? `${pr.level}/5` : '—'}</td>
         </tr>
       {/each}
     </tbody>

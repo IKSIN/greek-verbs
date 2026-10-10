@@ -37,6 +37,7 @@
       const s = await store();
       const n = await s.importJSON(await file.text());
       app.progress = await s.getAll();
+      app.practice = await s.getAllPractice();
       toast(`Импортировано карточек: ${n}`);
     } catch (err) {
       toast(err instanceof Error ? err.message : 'Ошибка импорта');

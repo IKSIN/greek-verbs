@@ -2,9 +2,11 @@ import type { RepoConfig } from './config';
 import type { Word, WordChange } from './types';
 import { makeId } from './wordId';
 
-export interface DictionarySnapshot { words: Word[]; sha: string | null; origin: 'remote' | 'cache' | 'bundled' }
+export interface DictionarySnapshot { words: Word[]; sha: string | null; origin: 'remote' | 'cache' | 'bundled'; authError?: boolean }
 
 export type DictionaryErrorKind = 'auth' | 'network' | 'conflict' | 'not-configured' | 'other';
+
+export const RATE_LIMIT_MESSAGE = 'Превышен лимит запросов GitHub — попробуйте позже';
 
 export class DictionaryError extends Error {
   constructor(public kind: DictionaryErrorKind, message: string) {
@@ -78,6 +80,9 @@ export function createDictionaryRepo(cfg: RepoConfig | null, deps: RepoDeps): Di
   }
 
   function failFor(res: Response): DictionaryError {
+    if (res.status === 403 && res.headers.get('x-ratelimit-remaining') === '0') {
+      return new DictionaryError('other', RATE_LIMIT_MESSAGE);
+    }
     if (res.status === 401 || res.status === 403) return new DictionaryError('auth', 'GitHub отклонил запрос — проверьте токен');
     if (res.status === 409 || res.status === 422) return new DictionaryError('conflict', 'Словарь изменился во время сохранения — попробуйте ещё раз');
     return new DictionaryError('other', `GitHub ответил ошибкой ${res.status}`);
@@ -85,7 +90,7 @@ export function createDictionaryRepo(cfg: RepoConfig | null, deps: RepoDeps): Di
 
   async function fetchRemote(token?: string): Promise<DictionarySnapshot> {
     if (!cfg) throw new DictionaryError('not-configured', 'Репозиторий GitHub не определён');
-    const res = await request(`${url}?ref=${cfg.branch}`, { headers: headers(token), cache: 'no-store' });
+    const res = await request(`${url}?ref=${cfg.branch}`, { headers: headers(token), cache: 'no-store', signal: AbortSignal.timeout(8000) });
     if (!res.ok) throw failFor(res);
     const body = (await res.json()) as { content: string; sha: string };
     const words = JSON.parse(decodeBase64Utf8(body.content)) as Word[];
@@ -96,8 +101,16 @@ export function createDictionaryRepo(cfg: RepoConfig | null, deps: RepoDeps): Di
   return {
     async load(token) {
       try {
-        const snap = await fetchRemote(token);
-        await deps.cache.set(snap);
+        let snap: DictionarySnapshot;
+        try {
+          snap = await fetchRemote(token);
+        } catch (e) {
+          // токен истёк/отозван — репозиторий публичный, читаем без токена
+          if (!(token && e instanceof DictionaryError && e.kind === 'auth')) throw e;
+          snap = { ...(await fetchRemote()), authError: true };
+        }
+        const { authError: _, ...cacheable } = snap;
+        await deps.cache.set(cacheable);
         return snap;
       } catch {
         const cached = await deps.cache.get().catch(() => undefined);

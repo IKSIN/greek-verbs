@@ -5,6 +5,7 @@ import {
 import type { RepoConfig } from '../src/lib/config';
 import type { Word } from '../src/lib/types';
 import { word } from './fixtures';
+import { validateWords } from '../src/lib/validate';
 
 const CFG: RepoConfig = { owner: 'o', repo: 'r', path: 'data/words.json', branch: 'main' };
 const GRAFO = word({ id: 'grafo', el: 'γράφω', ru: 'писать' });
@@ -77,6 +78,27 @@ describe('load', () => {
   });
 });
 
+describe('load auth handling', () => {
+  it('retries without token on 401 and flags authError', async () => {
+    const g = fakeGitHub([GRAFO]);
+    const f = vi.fn(async (u: string, init: RequestInit = {}) =>
+      (init.headers as Record<string, string>).Authorization ? json(401, { message: 'Bad credentials' }) : g.fetch(u, init));
+    const snap = await createDictionaryRepo(CFG, deps(f as unknown as typeof fetch)).load('expired');
+    expect(snap).toMatchObject({ origin: 'remote', authError: true, words: [GRAFO] });
+    expect(f).toHaveBeenCalledTimes(2);
+  });
+  it('does not set authError when token works', async () => {
+    const g = fakeGitHub([GRAFO]);
+    const snap = await createDictionaryRepo(CFG, deps(g.fetch as unknown as typeof fetch)).load('tok');
+    expect(snap.authError).toBeUndefined();
+  });
+  it('rate limit 403 -> other error on commit', async () => {
+    const f = vi.fn().mockResolvedValue(new Response('{}', { status: 403, headers: { 'x-ratelimit-remaining': '0' } }));
+    const p = createDictionaryRepo(CFG, deps(f)).commit({ type: 'add', word: PSINO }, 'tok', 'Маша');
+    await expect(p).rejects.toMatchObject({ kind: 'other', message: 'Превышен лимит запросов GitHub — попробуйте позже' });
+  });
+});
+
 describe('commit', () => {
   it('adds a word with sha, message and auth header', async () => {
     const g = fakeGitHub([GRAFO]);
@@ -96,6 +118,7 @@ describe('commit', () => {
     expect(g.puts).toHaveLength(2);
     expect(g.words.map((w) => w.id)).toEqual(['grafo', 'psino', 'psino-2']);
     expect(g.words[1].addedBy).toBe('Саша');
+    expect(validateWords(g.words).join()).not.toMatch('дубликат');
   });
   it('gives up after 3 conflicts', async () => {
     const g = fakeGitHub([GRAFO], { putStatus: [409, 409, 422] });

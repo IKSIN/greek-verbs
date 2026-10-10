@@ -4,9 +4,10 @@ import { emptyFilter, type WordFilter } from './filters';
 import { incNewSeen, loadSettings, newSeenToday, saveSettings, type Settings } from './settings';
 import { newCard, schedule } from './srs';
 import { todayISO } from './date';
-import { applyChange, createDictionaryRepo, DictionaryError, type DictionarySnapshot } from './dictionaryRepo';
+import { applyChange, createDictionaryRepo, DictionaryError, RATE_LIMIT_MESSAGE, type DictionarySnapshot } from './dictionaryRepo';
 import { openProgressStore, type ProgressStore } from './progressStore';
 import { resolveRepoConfig } from './config';
+import type { SessionState } from './session';
 import { enqueuePending, flushPending, loadPending } from './pendingQueue';
 
 export type Tab = 'learn' | 'dictionary' | 'add' | 'settings';
@@ -20,6 +21,8 @@ export const app = $state({
   direction: 'el-ru' as Direction,
   filter: emptyFilter(),
   studyFilter: null as WordFilter | null,
+  session: null as SessionState | null,
+  learnMode: 'cards' as 'cards' | 'type',
   tab: 'learn' as Tab,
   toast: null as string | null,
   pending: loadPending().length,
@@ -59,9 +62,18 @@ function reapplyPending(words: Word[]): Word[] {
 }
 
 export async function initApp(): Promise<void> {
-  app.progress = await (await store()).getAll();
-  await refreshDictionary(false);
-  app.ready = true;
+  try {
+    try {
+      app.progress = await (await store()).getAll();
+    } catch {
+      app.progress = {}; // хранилище прогресса недоступно — продолжаем с пустым
+    }
+    await refreshDictionary(false);
+  } catch (e) {
+    toast(`Ошибка запуска: ${e instanceof Error ? e.message : String(e)}`);
+  } finally {
+    app.ready = true;
+  }
   if (navigator.onLine) void syncPending();
 }
 
@@ -69,7 +81,9 @@ export async function refreshDictionary(notify = true): Promise<void> {
   const snap = await repo.load(app.settings.githubToken || undefined);
   app.words = reapplyPending(snap.words);
   app.origin = snap.origin;
-  if (notify) {
+  if (snap.authError) {
+    toast('GitHub-токен недействителен или истёк — обновите его в настройках');
+  } else if (notify) {
     toast(snap.origin === 'remote'
       ? `Словарь обновлён: ${snap.words.length} слов`
       : 'Нет связи с GitHub — показана сохранённая копия');
@@ -163,7 +177,7 @@ async function doSync(): Promise<void> {
       app.origin = 'remote';
     } catch (e) {
       // Неустранимая ошибка (например, правка удалённого слова) — выбрасываем изменение, чтобы не блокировать очередь
-      if (e instanceof DictionaryError && e.kind === 'other') {
+      if (e instanceof DictionaryError && e.kind === 'other' && e.message !== RATE_LIMIT_MESSAGE) {
         toast(`Изменение отброшено: ${e.message}`);
         return;
       }

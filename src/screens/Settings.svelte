@@ -55,6 +55,7 @@
     <summary>Как получить токен</summary>
     <ol>
       <li>github.com → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token.</li>
+      <li>Expiration: выберите максимальный срок (токен перестанет работать после истечения).</li>
       <li>Repository access: Only select repositories → {repoConfig ? `${repoConfig.owner}/${repoConfig.repo}` : 'репозиторий приложения'}.</li>
       <li>Permissions → Repository permissions → Contents: Read and write.</li>
       <li>Скопируйте токен и вставьте сюда. Он хранится только на этом устройстве.</li>

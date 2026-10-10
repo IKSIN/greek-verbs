@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { app, gradeCard, gradePractice, newLimit } from '../lib/app.svelte';
+  import { app, gradeCard, gradePractice, newLimit, toast } from '../lib/app.svelte';
   import { applyFilter } from '../lib/filters';
   import { answerSession, buildQueue, countDue, startSession, type SessionState } from '../lib/session';
   import { todayISO } from '../lib/date';
@@ -39,17 +39,27 @@
     app.practiceWord = null;
   }
 
+  let grading = false;
   async function gradeFree(g: Grade) {
-    if (!app.practiceSession || !app.practiceWord) return;
-    const word = $state.snapshot(app.practiceWord);
-    const dir = app.direction;
-    const prevLevel = app.practice[progressKey(word.id, dir)]?.level ?? 0;
-    await gradePractice(word, dir, g);
-    const newLevel = app.practice[progressKey(word.id, dir)]?.level ?? 0;
-    app.practiceSession = answerPractice($state.snapshot(app.practiceSession), word.id, g, prevLevel, newLevel);
-    const next = nextPracticeWord(app.practiceSession, pool, app.practice, dir);
-    if (next) app.practiceWord = next;
-    else finishPractice();
+    if (grading || !app.practiceSession || !app.practiceWord) return;
+    grading = true;
+    try {
+      const word = $state.snapshot(app.practiceWord);
+      const dir = app.direction;
+      const prevLevel = app.practice[progressKey(word.id, dir)]?.level ?? 0;
+      // app.practice обновляется синхронно (до первого await внутри), запись в IndexedDB ждём ниже
+      const saved = gradePractice(word, dir, g);
+      const newLevel = app.practice[progressKey(word.id, dir)]?.level ?? 0;
+      app.practiceSession = answerPractice($state.snapshot(app.practiceSession), word.id, g, prevLevel, newLevel);
+      const next = nextPracticeWord(app.practiceSession, pool, app.practice, dir);
+      if (next) app.practiceWord = next;
+      else finishPractice();
+      await saved;
+    } catch (e) {
+      toast(e instanceof Error ? e.message : 'Не удалось сохранить прогресс');
+    } finally {
+      grading = false;
+    }
   }
 
   // слово могли удалить во время тренировки: пул опустел — завершаем

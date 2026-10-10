@@ -1,5 +1,5 @@
 import { openDB } from 'idb';
-import type { CardState, ProgressMap } from './types';
+import type { CardState, PracticeMap, PracticeState, ProgressMap } from './types';
 import { progressKey } from './types';
 
 export interface ProgressStore {
@@ -8,6 +8,8 @@ export interface ProgressStore {
   deleteWord(wordId: string): Promise<void>;
   exportJSON(): Promise<string>;
   importJSON(json: string): Promise<number>;
+  getAllPractice(): Promise<PracticeMap>;
+  putPractice(s: PracticeState): Promise<void>;
   getCache<T>(key: string): Promise<T | undefined>;
   setCache(key: string, value: unknown): Promise<void>;
 }
@@ -26,11 +28,26 @@ function isCardState(x: unknown): x is CardState {
   );
 }
 
+function isPracticeState(x: unknown): x is PracticeState {
+  const p = x as PracticeState;
+  return (
+    !!p && typeof p === 'object' &&
+    typeof p.wordId === 'string' && !!p.wordId &&
+    (p.direction === 'el-ru' || p.direction === 'ru-el') &&
+    Number.isInteger(p.level) && p.level >= 0 && p.level <= 5 &&
+    [p.seen, p.wrong].every((v) => typeof v === 'number' && Number.isFinite(v) && v >= 0) &&
+    typeof p.lastSeen === 'string' && DATE.test(p.lastSeen)
+  );
+}
+
 export async function openProgressStore(name = 'greek'): Promise<ProgressStore> {
-  const db = await openDB(name, 1, {
-    upgrade(db) {
-      db.createObjectStore('progress');
-      db.createObjectStore('cache');
+  const db = await openDB(name, 2, {
+    upgrade(db, oldVersion) {
+      if (oldVersion < 1) {
+        db.createObjectStore('progress');
+        db.createObjectStore('cache');
+      }
+      if (oldVersion < 2) db.createObjectStore('practice');
     },
   });
 
@@ -43,20 +60,31 @@ export async function openProgressStore(name = 'greek'): Promise<ProgressStore> 
     async put(s) {
       await db.put('progress', s, progressKey(s.wordId, s.direction));
     },
+    async getAllPractice() {
+      const out: PracticeMap = {};
+      for (const p of (await db.getAll('practice')) as PracticeState[]) out[progressKey(p.wordId, p.direction)] = p;
+      return out;
+    },
+    async putPractice(s) {
+      await db.put('practice', s, progressKey(s.wordId, s.direction));
+    },
     async deleteWord(wordId) {
-      const tx = db.transaction('progress', 'readwrite');
+      const tx = db.transaction(['progress', 'practice'], 'readwrite');
       await Promise.all([
-        tx.store.delete(progressKey(wordId, 'el-ru')),
-        tx.store.delete(progressKey(wordId, 'ru-el')),
+        ...(['progress', 'practice'] as const).flatMap((n) => [
+          tx.objectStore(n).delete(progressKey(wordId, 'el-ru')),
+          tx.objectStore(n).delete(progressKey(wordId, 'ru-el')),
+        ]),
         tx.done,
       ]);
     },
     async exportJSON() {
-      const cards = await db.getAll('progress');
-      return JSON.stringify({ app: 'greek', version: 1, exportedAt: new Date().toISOString(), cards }, null, 2);
+      const tx = db.transaction(['progress', 'practice'], 'readonly');
+      const [cards, practice] = await Promise.all([tx.objectStore('progress').getAll(), tx.objectStore('practice').getAll()]);
+      return JSON.stringify({ app: 'greek', version: 2, exportedAt: new Date().toISOString(), cards, practice }, null, 2);
     },
     async importJSON(json) {
-      let data: { app?: unknown; cards?: unknown };
+      let data: { app?: unknown; cards?: unknown; practice?: unknown };
       try {
         data = JSON.parse(json);
       } catch {
@@ -65,11 +93,18 @@ export async function openProgressStore(name = 'greek'): Promise<ProgressStore> 
       if (!data || data.app !== 'greek' || !Array.isArray(data.cards) || !data.cards.every(isCardState)) {
         throw new Error('Неверный формат файла прогресса');
       }
+      if (data.practice !== undefined && (!Array.isArray(data.practice) || !data.practice.every(isPracticeState))) {
+        throw new Error('Неверный формат файла прогресса');
+      }
       const cards = data.cards as CardState[];
-      const tx = db.transaction('progress', 'readwrite');
+      const practice = data.practice as PracticeState[] | undefined;
+      const tx = db.transaction(['progress', 'practice'], 'readwrite');
+      const ps = tx.objectStore('progress');
+      const pr = tx.objectStore('practice');
       await Promise.all([
-        tx.store.clear(),
-        ...cards.map((c) => tx.store.put(c, progressKey(c.wordId, c.direction))),
+        ps.clear(),
+        ...cards.map((c) => ps.put(c, progressKey(c.wordId, c.direction))),
+        ...(practice ? [pr.clear(), ...practice.map((p) => pr.put(p, progressKey(p.wordId, p.direction)))] : []),
         tx.done,
       ]);
       return cards.length;

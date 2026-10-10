@@ -1,6 +1,7 @@
-import type { Conj, Direction, ProgressMap, Word } from './types';
+import type { Conj, Direction, PracticeMap, ProgressMap, Word } from './types';
 import { progressKey } from './types';
 import { stripAccents } from './answer';
+import { practiceStatusOf, type PracticeStatus } from './practice';
 import { isHard, statusOf, type Status } from './status';
 
 export type StatusFilter = Status | 'hard';
@@ -12,17 +13,18 @@ export interface WordFilter {
   source: ('base' | 'user')[];
   addedBy: string[];
   status: StatusFilter[];
+  practice: PracticeStatus[];
 }
 
-export const emptyFilter = (): WordFilter => ({ query: '', conj: [], tags: [], source: [], addedBy: [], status: [] });
+export const emptyFilter = (): WordFilter => ({ query: '', conj: [], tags: [], source: [], addedBy: [], status: [], practice: [] });
 
 export function isFilterActive(f: WordFilter): boolean {
-  return !!f.query.trim() || [f.conj, f.tags, f.source, f.addedBy, f.status].some((g) => g.length > 0);
+  return !!f.query.trim() || [f.conj, f.tags, f.source, f.addedBy, f.status, f.practice].some((g) => g.length > 0);
 }
 
 export const searchKey = (s: string): string => stripAccents(s.toLocaleLowerCase('el'));
 
-export function applyFilter(words: Word[], f: WordFilter, progress: ProgressMap, dir: Direction): Word[] {
+export function applyFilter(words: Word[], f: WordFilter, progress: ProgressMap, dir: Direction, practice: PracticeMap = {}): Word[] {
   const q = searchKey(f.query.trim());
   return words.filter((w) => {
     if (q && !searchKey(w.el).includes(q) && !searchKey(w.ru).includes(q)) return false;
@@ -34,6 +36,7 @@ export function applyFilter(words: Word[], f: WordFilter, progress: ProgressMap,
       const s = progress[progressKey(w.id, dir)];
       if (!f.status.some((st) => (st === 'hard' ? isHard(s) : statusOf(s) === st))) return false;
     }
+    if (f.practice.length && !f.practice.includes(practiceStatusOf(practice[progressKey(w.id, dir)]))) return false;
     return true;
   });
 }

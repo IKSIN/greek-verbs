@@ -1,7 +1,8 @@
 import { describe, it, expect } from 'vitest';
 import { applyFilter, emptyFilter, facets, isFilterActive, type WordFilter } from '../src/lib/filters';
 import { isHard, statusOf } from '../src/lib/status';
-import type { ProgressMap } from '../src/lib/types';
+import type { PracticeMap, ProgressMap } from '../src/lib/types';
+import type { PracticeStatus } from '../src/lib/practice';
 import { WORDS, card } from './fixtures';
 
 const ids = (f: Partial<WordFilter>, progress: ProgressMap = {}, dir: 'el-ru' | 'ru-el' = 'el-ru') =>
@@ -53,4 +54,28 @@ describe('facets & isFilterActive', () => {
     expect(isFilterActive({ ...emptyFilter(), query: ' x ' })).toBe(true);
     expect(isFilterActive({ ...emptyFilter(), tags: ['еда'] })).toBe(true);
   });
+});
+
+describe('practice filter', () => {
+  const PRACTICE: PracticeMap = {
+    'grafo:el-ru': { wordId: 'grafo', direction: 'el-ru', level: 5, seen: 9, wrong: 0, lastSeen: '2026-10-10' },
+    'agapao:el-ru': { wordId: 'agapao', direction: 'el-ru', level: 2, seen: 3, wrong: 1, lastSeen: '2026-10-10' },
+    'mporo:ru-el': { wordId: 'mporo', direction: 'ru-el', level: 0, seen: 1, wrong: 1, lastSeen: '2026-10-10' },
+  };
+  const pids = (st: PracticeStatus[], dir: 'el-ru' | 'ru-el' = 'el-ru') =>
+    applyFilter(WORDS, { ...emptyFilter(), practice: st }, {}, dir, PRACTICE).map((w) => w.id);
+  it('emptyFilter has practice group; active when set', () => {
+    expect(emptyFilter().practice).toEqual([]);
+    expect(isFilterActive({ ...emptyFilter(), practice: ['mastered'] })).toBe(true);
+  });
+  it('mastered', () => expect(pids(['mastered'])).toEqual(['grafo']));
+  it('in-progress', () => expect(pids(['in-progress'])).toEqual(['agapao']));
+  it('not-started', () => expect(pids(['not-started'])).toHaveLength(4));
+  it('multiple statuses', () => expect(pids(['mastered', 'in-progress'])).toEqual(['grafo', 'agapao']));
+  it('is per direction', () => {
+    expect(pids(['in-progress'], 'ru-el')).toEqual(['mporo']);
+    expect(pids(['mastered'], 'ru-el')).toEqual([]);
+  });
+  it('practice param optional: everything not-started', () =>
+    expect(applyFilter(WORDS, { ...emptyFilter(), practice: ['not-started'] }, {}, 'el-ru')).toHaveLength(6));
 });

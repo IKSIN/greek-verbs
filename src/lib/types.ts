@@ -28,6 +28,16 @@ export interface CardState {
 
 export type ProgressMap = Record<string, CardState>;
 
+export interface PracticeState {
+  wordId: string;
+  direction: Direction;
+  level: number; // 0..5
+  seen: number; // total answers in practice
+  wrong: number; // total 'again' answers
+  lastSeen: string; // ISO date YYYY-MM-DD
+}
+export type PracticeMap = Record<string, PracticeState>; // key = progressKey(wordId, direction)
+
 export type WordChange =
   | { type: 'add'; word: Word }
   | { type: 'update'; word: Word }

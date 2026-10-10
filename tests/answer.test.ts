@@ -4,7 +4,7 @@ import { checkAnswer, normalize, stripAccents } from '../src/lib/answer';
 describe('checkAnswer', () => {
   it('exact match', () => expect(checkAnswer('γράφω', 'γράφω')).toBe('correct'));
   it('ignores case and surrounding spaces', () => expect(checkAnswer('  ΓΡΆΦΩ ', 'γράφω')).toBe('correct'));
-  it('decomposed input equals composed', () => expect(checkAnswer('γράφω', 'γράφω')).toBe('correct'));
+  it('decomposed input equals composed', () => expect(checkAnswer('γρα\u0301φω', 'γράφω')).toBe('correct'));
   it('missing accent -> accent', () => expect(checkAnswer('γραφω', 'γράφω')).toBe('accent'));
   it('accent on wrong syllable -> accent', () => expect(checkAnswer('γραφώ', 'γράφω')).toBe('accent'));
   it('different word -> wrong', () => expect(checkAnswer('γράψω', 'γράφω')).toBe('wrong'));

@@ -140,7 +140,21 @@ export async function saveWordChange(change: WordChange): Promise<boolean> {
   }
 }
 
-export async function syncPending(): Promise<void> {
+let syncing: Promise<void> | null = null;
+
+export function syncPending(): Promise<void> {
+  if (syncing) return syncing;
+  syncing = (async () => {
+    try {
+      await doSync();
+    } finally {
+      syncing = null;
+    }
+  })();
+  return syncing;
+}
+
+async function doSync(): Promise<void> {
   if (!app.pending || !repoConfig || !app.settings.githubToken) return;
   const r = await flushPending(async (item) => {
     try {

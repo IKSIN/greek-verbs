@@ -10,7 +10,7 @@
   let value = $state('');
   let result = $state<AnswerResult | null>(null);
   let input = $state<HTMLInputElement>();
-  const GRADE: Record<AnswerResult, Grade> = { correct: 'good', accent: 'hard', wrong: 'again' };
+  const GRADE: Record<AnswerResult, Grade> = { correct: 'good', accent: 'hard', article: 'hard', wrong: 'again' };
 
   onMount(() => input?.focus());
 
@@ -41,6 +41,8 @@
     <p class="ok">✅ Верно</p>
   {:else if result === 'accent'}
     <p class="warn">⚠️ Почти: проверьте ударение</p>
+  {:else if result === 'article'}
+    <p class="warn">⚠️ Почти: не забудьте артикль — {item.word.el}</p>
   {:else if result === 'wrong'}
     <p class="bad">❌ Неверно{value.trim() ? `: «${value.trim()}»` : ''}</p>
   {/if}

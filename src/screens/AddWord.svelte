@@ -1,8 +1,7 @@
 <script lang="ts">
   import { app, saveWordChange } from '../lib/app.svelte';
   import { facets } from '../lib/filters';
-  import { makeId } from '../lib/wordId';
-  import { stripAccents } from '../lib/answer';
+  import { dedupKey, makeId } from '../lib/wordId';
   import { CONJ_VALUES, validateWord } from '../lib/validate';
   import { CONJ_LABELS } from '../lib/labels';
   import { todayISO } from '../lib/date';
@@ -22,8 +21,7 @@
   let errors = $state<string[]>([]);
   let saving = $state(false);
 
-  const key = (s: string) => stripAccents(s.trim().toLocaleLowerCase('el'));
-  const duplicate = $derived(el.trim() ? app.words.find((w) => w.id !== edit?.id && key(w.el) === key(el)) : undefined);
+  const duplicate = $derived(el.trim() ? app.words.find((w) => w.id !== edit?.id && dedupKey(w.el) === dedupKey(el)) : undefined);
   const allTags = $derived([...new Set([...facets(app.words).tags, ...tags])].sort((a, b) => a.localeCompare(b, 'ru')));
   const configured = $derived(!!app.settings.name && !!app.settings.githubToken);
 

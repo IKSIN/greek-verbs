@@ -38,7 +38,7 @@ describe('extractWords', () => {
     expect((init.headers as Record<string, string>).Authorization).toBe('Bearer k');
     const sent = JSON.parse(init.body as string);
     expect(sent.model).toBe(DEFAULT_MODEL);
-    expect(sent.temperature).toBe(0);
+    expect(sent).not.toHaveProperty('temperature');
     expect(sent.max_tokens).toBe(8000);
     expect(sent.provider.require_parameters).toBe(true);
     expect(sent.response_format.json_schema.strict).toBe(true);

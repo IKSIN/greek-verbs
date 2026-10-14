@@ -54,7 +54,6 @@ export async function extractWords(
       headers: { Authorization: `Bearer ${opts.apiKey}`, 'Content-Type': 'application/json', 'X-Title': 'greek-verbs' },
       body: JSON.stringify({
         model: opts.model || DEFAULT_MODEL,
-        temperature: 0,
         max_tokens: 8000,
         provider: { require_parameters: true }, // только провайдеры с поддержкой json_schema
         messages: [

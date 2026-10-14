@@ -46,10 +46,12 @@ export async function extractWords(
     const batch = messages.slice(i, i + BATCH_SIZE);
     const res = await doFetch(ENDPOINT, {
       method: 'POST',
+      signal: AbortSignal.timeout(60_000),
       headers: { Authorization: `Bearer ${opts.apiKey}`, 'Content-Type': 'application/json', 'X-Title': 'greek-verbs' },
       body: JSON.stringify({
         model: opts.model || DEFAULT_MODEL,
         temperature: 0,
+        provider: { require_parameters: true }, // только провайдеры с поддержкой json_schema
         messages: [
           { role: 'system', content: SYSTEM_PROMPT },
           { role: 'user', content: JSON.stringify(batch) },

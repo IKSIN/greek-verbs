@@ -38,6 +38,7 @@ describe('extractWords', () => {
     const sent = JSON.parse(init.body as string);
     expect(sent.model).toBe(DEFAULT_MODEL);
     expect(sent.temperature).toBe(0);
+    expect(sent.provider.require_parameters).toBe(true);
     expect(sent.response_format.json_schema.strict).toBe(true);
     expect(JSON.parse(sent.messages[1].content)).toEqual(msgs(1));
   });

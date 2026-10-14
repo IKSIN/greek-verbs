@@ -1,6 +1,27 @@
 import { describe, it, expect, vi } from 'vitest';
-import { SYSTEM_PROMPT } from '../src/lib/telegram/prompt';
+import { SYSTEM_PROMPT, WORDS_SCHEMA } from '../src/lib/telegram/prompt';
 import { BATCH_SIZE, DEFAULT_MODEL, extractWords, parseLlmWords } from '../src/lib/telegram/llm';
+
+describe('WORDS_SCHEMA', () => {
+  const walk = (node: unknown, visit: (n: Record<string, unknown>) => void): void => {
+    if (Array.isArray(node)) return node.forEach((c) => walk(c, visit));
+    if (node && typeof node === 'object') {
+      visit(node as Record<string, unknown>);
+      Object.values(node).forEach((c) => walk(c, visit));
+    }
+  };
+  it('no node combines enum with an array-valued type', () => {
+    const bad: unknown[] = [];
+    walk(WORDS_SCHEMA, (n) => {
+      if ('enum' in n && Array.isArray(n.type)) bad.push(n);
+    });
+    expect(bad).toEqual([]);
+  });
+  it('conj accepts null via anyOf', () => {
+    const conj = (WORDS_SCHEMA.properties.words.items.properties as Record<string, { anyOf?: unknown[] }>).conj;
+    expect(conj.anyOf).toContainEqual({ type: 'null' });
+  });
+});
 
 const item = (p: Record<string, unknown> = {}) => ({
   el: 'το κλειδί', ru: 'ключ', pos: 'noun', tags: ['дом'], aorist: null, future: null, conj: null, note: null, sourceMessageId: 1, ...p,

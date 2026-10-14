@@ -12,7 +12,7 @@ export interface LlmWord {
   sourceMessageId: number;
 }
 
-const nullableString = { type: ['string', 'null'] };
+const nullableString = { anyOf: [{ type: 'string' }, { type: 'null' }] };
 
 export const WORDS_SCHEMA = {
   type: 'object',
@@ -32,7 +32,7 @@ export const WORDS_SCHEMA = {
           tags: { type: 'array', items: { type: 'string' } },
           aorist: nullableString,
           future: nullableString,
-          conj: { type: ['string', 'null'], enum: ['A', 'B1', 'B2', '-ομαι', 'irregular', null] },
+          conj: { anyOf: [{ type: 'string', enum: ['A', 'B1', 'B2', '-ομαι', 'irregular'] }, { type: 'null' }] },
           note: nullableString,
           sourceMessageId: { type: 'integer' },
         },

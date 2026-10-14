@@ -21,7 +21,7 @@ export function validateWord(w: Word): string[] {
   const e: string[] = [];
   if (!/^[a-z0-9-]+$/.test(w.id ?? '')) e.push(`${at}: некорректный id`);
   if (blank(w.el) || !GREEK.test(w.el)) e.push(`${at}: нет греческого слова`);
-  else if (vowelGroups(w.el) > 1 && !hasAccent(w.el)) e.push(`${at}: нет ударения`);
+  else if (w.el.split(/\s+/).some((x) => vowelGroups(x) > 1 && !hasAccent(x))) e.push(`${at}: нет ударения`);
   if (blank(w.ru)) e.push(`${at}: нет перевода`);
   if (w.conj !== undefined && !CONJ_VALUES.includes(w.conj)) e.push(`${at}: неизвестное спряжение ${w.conj}`);
   if (w.pos !== undefined && !POS_VALUES.includes(w.pos)) e.push(`${at}: неизвестная часть речи ${w.pos}`);

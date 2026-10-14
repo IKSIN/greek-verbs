@@ -42,6 +42,13 @@ describe('validateWord', () => {
     expect(validateWord({ ...user, pos: 'noun', el: 'το κλειδί', id: 'kleidi' })).toEqual([]);
     expect(validateWord({ ...user, pos: undefined })).toEqual([]);
   });
+  it('phrases of monosyllables need no accent', () => {
+    for (const el of ['ο γιος', 'για να μην', 'το τραμ', 'πες μου!']) {
+      expect(validateWord({ ...user, el })).toEqual([]);
+    }
+  });
+  it('phrase with an unaccented polysyllabic word is rejected', () =>
+    expect(validateWord({ ...user, el: 'κάνω λαθος' }).join()).toMatch('нет ударения'));
 });
 
 describe('validateWords', () => {

@@ -142,10 +142,10 @@ interface Word { /* … */ pos?: Pos }
 ### OpenRouter
 
 - `POST https://openrouter.ai/api/v1/chat/completions`.
-- Модель: `OPENROUTER_MODEL`, по умолчанию `anthropic/claude-haiku-4.5`. Перед реализацией
-  проверить актуальный slug в каталоге OpenRouter и взять самую новую Haiku.
+- Модель: `OPENROUTER_MODEL`, по умолчанию `anthropic/claude-haiku-5.5` (проверено 2026-10-14 в каталоге OpenRouter, поддерживает structured outputs).
+
 - `response_format: { type: "json_schema", json_schema: { strict: true, schema } }`, `temperature: 0`.
-- Схема ответа: `{ words: Array<{ el, ru, pos, tags: string[], forms?: {aorist?, future?}, conj?, sourceMessageId: number }> }`.
+- Схема ответа: `{ words: Array<{ el, ru, pos, tags: string[], forms?: {aorist?, future?}, conj?, note?, sourceMessageId: number }> }`. Необязательные поля в strict-схеме передаются как `null`. `note` — что исправлено (опечатка, форма), только для таблицы разового импорта, в `Word` не сохраняется.
 - Системный промпт, общий с разовым импортом: файл `src/lib/telegram/prompt.ts`. Содержит:
   - соглашения по записи из раздела выше;
   - что игнорировать: домашние задания («Д\З»), бытовую переписку, ссылки, вопросы преподавателю,

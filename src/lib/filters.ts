@@ -1,4 +1,4 @@
-import type { Conj, Direction, PracticeMap, ProgressMap, Word } from './types';
+import type { Conj, Direction, Pos, PracticeMap, ProgressMap, Word } from './types';
 import { progressKey } from './types';
 import { stripAccents } from './answer';
 import { practiceStatusOf, type PracticeStatus } from './practice';
@@ -9,6 +9,7 @@ export type StatusFilter = Status | 'hard';
 export interface WordFilter {
   query: string;
   conj: Conj[];
+  pos: Pos[];
   tags: string[];
   source: ('base' | 'user')[];
   addedBy: string[];
@@ -16,10 +17,10 @@ export interface WordFilter {
   practice: PracticeStatus[];
 }
 
-export const emptyFilter = (): WordFilter => ({ query: '', conj: [], tags: [], source: [], addedBy: [], status: [], practice: [] });
+export const emptyFilter = (): WordFilter => ({ query: '', conj: [], pos: [], tags: [], source: [], addedBy: [], status: [], practice: [] });
 
 export function isFilterActive(f: WordFilter): boolean {
-  return !!f.query.trim() || [f.conj, f.tags, f.source, f.addedBy, f.status, f.practice].some((g) => g.length > 0);
+  return !!f.query.trim() || [f.conj, f.pos, f.tags, f.source, f.addedBy, f.status, f.practice].some((g) => g.length > 0);
 }
 
 export const searchKey = (s: string): string => stripAccents(s.toLocaleLowerCase('el'));
@@ -29,6 +30,7 @@ export function applyFilter(words: Word[], f: WordFilter, progress: ProgressMap,
   return words.filter((w) => {
     if (q && !searchKey(w.el).includes(q) && !searchKey(w.ru).includes(q)) return false;
     if (f.conj.length && !(w.conj && f.conj.includes(w.conj))) return false;
+    if (f.pos.length && !f.pos.includes(w.pos ?? 'other')) return false;
     if (f.tags.length && !w.tags.some((t) => f.tags.includes(t))) return false;
     if (f.source.length && !f.source.includes(w.source)) return false;
     if (f.addedBy.length && !(w.addedBy && f.addedBy.includes(w.addedBy))) return false;

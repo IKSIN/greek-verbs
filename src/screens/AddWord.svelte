@@ -2,15 +2,18 @@
   import { app, saveWordChange } from '../lib/app.svelte';
   import { facets } from '../lib/filters';
   import { dedupKey, makeId } from '../lib/wordId';
-  import { CONJ_VALUES, validateWord } from '../lib/validate';
-  import { CONJ_LABELS } from '../lib/labels';
+  import { CONJ_VALUES, POS_VALUES, validateWord } from '../lib/validate';
+  import { CONJ_LABELS, POS_LABELS } from '../lib/labels';
   import { todayISO } from '../lib/date';
-  import type { Conj, Word } from '../lib/types';
+  import type { Conj, Pos, Word } from '../lib/types';
 
   let { edit, ondone }: { edit?: Word; ondone?: () => void } = $props();
 
   let el = $state(edit?.el ?? '');
   let ru = $state(edit?.ru ?? '');
+  // старые слова без pos, но со спряжением/формами — глаголы
+  const initialPos = (): Pos => edit?.pos ?? (edit?.conj || edit?.forms ? 'verb' : 'other');
+  let pos = $state<Pos>(initialPos());
   let aorist = $state(edit?.forms?.aorist ?? '');
   let future = $state(edit?.forms?.future ?? '');
   let conj = $state<Conj | ''>(edit?.conj ?? '');
@@ -21,6 +24,7 @@
   let errors = $state<string[]>([]);
   let saving = $state(false);
 
+  const isVerb = $derived(pos === 'verb');
   const duplicate = $derived(el.trim() ? app.words.find((w) => w.id !== edit?.id && dedupKey(w.el) === dedupKey(el)) : undefined);
   const allTags = $derived([...new Set([...facets(app.words).tags, ...tags])].sort((a, b) => a.localeCompare(b, 'ru')));
   const configured = $derived(!!app.settings.name && !!app.settings.githubToken);
@@ -39,16 +43,19 @@
       id: edit?.id ?? makeId(el, new Set(app.words.map((x) => x.id))),
       el: el.trim(),
       ru: ru.trim(),
+      pos,
       tags: [...tags],
       source: edit?.source ?? 'user',
       addedBy: edit ? edit.addedBy : app.settings.name,
       addedAt: edit?.addedAt ?? todayISO(),
     };
-    const forms: NonNullable<Word['forms']> = {};
-    if (aorist.trim()) forms.aorist = aorist.trim();
-    if (future.trim()) forms.future = future.trim();
-    if (forms.aorist || forms.future) w.forms = forms;
-    if (conj) w.conj = conj;
+    if (isVerb) {
+      const forms: NonNullable<Word['forms']> = {};
+      if (aorist.trim()) forms.aorist = aorist.trim();
+      if (future.trim()) forms.future = future.trim();
+      if (forms.aorist || forms.future) w.forms = forms;
+      if (conj) w.conj = conj;
+    }
     if (exEl.trim() && exRu.trim()) w.example = { el: exEl.trim(), ru: exRu.trim() };
     return w;
   }
@@ -56,6 +63,7 @@
   function reset() {
     el = ru = aorist = future = exEl = exRu = newTag = '';
     conj = '';
+    pos = 'other';
     tags = [];
     errors = [];
   }
@@ -87,6 +95,12 @@
   <label>По-гречески, с ударением *<input bind:value={el} lang="el" autocomplete="off" required /></label>
   {#if duplicate}<p class="warn">Уже есть: {duplicate.el} — {duplicate.ru}</p>{/if}
   <label>Перевод *<input bind:value={ru} required /></label>
+  <label>Часть речи
+    <select bind:value={pos}>
+      {#each POS_VALUES as p (p)}<option value={p}>{POS_LABELS[p]}</option>{/each}
+    </select>
+  </label>
+  {#if isVerb}
   <div class="two">
     <label>Прошедшее (аорист)<input bind:value={aorist} lang="el" autocomplete="off" /></label>
     <label>Будущее<input bind:value={future} lang="el" autocomplete="off" placeholder="θα …" /></label>
@@ -97,6 +111,7 @@
       {#each CONJ_VALUES as c (c)}<option value={c}>{CONJ_LABELS[c]}</option>{/each}
     </select>
   </label>
+  {/if}
   <fieldset class="chips">
     <legend>Темы</legend>
     {#each allTags as t (t)}

@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Word } from '../lib/types';
-  import { CONJ_LABELS } from '../lib/labels';
+  import { CONJ_LABELS, POS_LABELS } from '../lib/labels';
   import SpeakButton from './SpeakButton.svelte';
   let { word }: { word: Word } = $props();
 </script>
@@ -11,7 +11,9 @@
   {#if word.forms?.aorist || word.forms?.future}
     <p class="forms">{word.el} — {word.forms?.aorist ?? '—'} — {word.forms?.future ?? '—'}</p>
   {/if}
-  {#if word.conj}<p class="muted">Спряжение: {CONJ_LABELS[word.conj]}</p>{/if}
+  {#if word.pos || word.conj}
+    <p class="muted">{[word.pos && POS_LABELS[word.pos], word.conj && `спряжение ${CONJ_LABELS[word.conj]}`].filter(Boolean).join(' · ')}</p>
+  {/if}
   {#if word.example}
     <blockquote>
       <p>{word.example.el} <SpeakButton text={word.example.el} /></p>

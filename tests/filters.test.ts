@@ -79,3 +79,18 @@ describe('practice filter', () => {
   it('practice param optional: everything not-started', () =>
     expect(applyFilter(WORDS, { ...emptyFilter(), practice: ['not-started'] }, {}, 'el-ru')).toHaveLength(6));
 });
+
+describe('pos filter', () => {
+  const ws = [
+    { ...WORDS[0], pos: 'verb' as const },
+    { ...WORDS[4], pos: 'noun' as const },
+    WORDS[5], // без pos
+  ];
+  const run = (pos: WordFilter['pos']) => applyFilter(ws, { ...emptyFilter(), pos }, {}, 'el-ru').map((w) => w.id);
+  it('filters by pos (OR inside group)', () => expect(run(['verb', 'noun'])).toEqual(['grafo', 'psino']));
+  it('word without pos counts as other', () => expect(run(['other'])).toEqual(['kolympao']));
+  it('pos activates filter', () => {
+    expect(emptyFilter().pos).toEqual([]);
+    expect(isFilterActive({ ...emptyFilter(), pos: ['adj'] })).toBe(true);
+  });
+});

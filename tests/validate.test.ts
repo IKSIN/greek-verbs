@@ -3,7 +3,7 @@ import { validateWord, validateWords } from '../src/lib/validate';
 import { word } from './fixtures';
 
 const base = word({
-  id: 'grafo', el: 'γράφω', ru: 'писать', conj: 'A', tags: ['общение'],
+  id: 'grafo', el: 'γράφω', ru: 'писать', pos: 'verb', conj: 'A', tags: ['общение'],
   forms: { aorist: 'έγραψα', future: 'θα γράψω' },
   example: { el: 'Γράφω ένα γράμμα.', ru: 'Я пишу письмо.' },
 });
@@ -33,6 +33,14 @@ describe('validateWord', () => {
     const e = validateWord({ ...user, el: 'kolympao', ru: ' ' }).join();
     expect(e).toMatch('нет греческого слова');
     expect(e).toMatch('нет перевода');
+  });
+  it('base word must be a verb', () =>
+    expect(validateWord({ ...base, pos: undefined }).join()).toMatch('pos должен быть verb'));
+  it('rejects unknown pos', () =>
+    expect(validateWord({ ...user, pos: 'xxx' as never }).join()).toMatch('неизвестная часть речи'));
+  it('user word may have any known pos or none', () => {
+    expect(validateWord({ ...user, pos: 'noun', el: 'το κλειδί', id: 'kleidi' })).toEqual([]);
+    expect(validateWord({ ...user, pos: undefined })).toEqual([]);
   });
 });
 

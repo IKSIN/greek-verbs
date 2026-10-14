@@ -1,7 +1,8 @@
-import type { Conj, Word } from './types';
+import type { Conj, Pos, Word } from './types';
 import { stripAccents } from './answer';
 
 export const CONJ_VALUES: Conj[] = ['A', 'B1', 'B2', '-ομαι', 'irregular'];
+export const POS_VALUES: Pos[] = ['verb', 'noun', 'adj', 'adv', 'phrase', 'other'];
 
 export const BASE_TAGS = [
   'повседневное', 'движение', 'еда', 'общение', 'учёба', 'работа', 'дом',
@@ -23,9 +24,11 @@ export function validateWord(w: Word): string[] {
   else if (vowelGroups(w.el) > 1 && !hasAccent(w.el)) e.push(`${at}: нет ударения`);
   if (blank(w.ru)) e.push(`${at}: нет перевода`);
   if (w.conj !== undefined && !CONJ_VALUES.includes(w.conj)) e.push(`${at}: неизвестное спряжение ${w.conj}`);
+  if (w.pos !== undefined && !POS_VALUES.includes(w.pos)) e.push(`${at}: неизвестная часть речи ${w.pos}`);
   if (!Array.isArray(w.tags) || w.tags.some(blank)) e.push(`${at}: некорректные теги`);
   if (w.source !== 'base' && w.source !== 'user') e.push(`${at}: некорректный source`);
   if (w.source === 'base') {
+    if (w.pos !== 'verb') e.push(`${at}: у базового слова pos должен быть verb`);
     if (w.addedBy !== null) e.push(`${at}: у базового слова addedBy должен быть null`);
     if (blank(w.forms?.aorist) || blank(w.forms?.future)) e.push(`${at}: нет форм`);
     if (!w.conj) e.push(`${at}: нет спряжения`);

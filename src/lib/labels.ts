@@ -1,9 +1,12 @@
-import type { Conj, Direction } from './types';
+import type { Conj, Direction, Pos } from './types';
 import type { StatusFilter } from './filters';
 import type { PracticeStatus } from './practice';
 
 export const CONJ_LABELS: Record<Conj, string> = {
   A: 'A (γράφω)', B1: 'B1 (αγαπάω)', B2: 'B2 (μπορώ)', '-ομαι': '-ομαι (έρχομαι)', irregular: 'неправильный',
+};
+export const POS_LABELS: Record<Pos, string> = {
+  verb: 'глагол', noun: 'существительное', adj: 'прилагательное', adv: 'наречие', phrase: 'фраза', other: 'другое',
 };
 export const STATUS_LABELS: Record<StatusFilter, string> = {
   new: 'новое', learning: 'учу', learned: 'выучено', hard: 'трудное',

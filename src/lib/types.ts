@@ -1,11 +1,13 @@
 export type Conj = 'A' | 'B1' | 'B2' | '-ομαι' | 'irregular';
 export type Direction = 'el-ru' | 'ru-el';
 export type Grade = 'again' | 'hard' | 'good' | 'easy';
+export type Pos = 'verb' | 'noun' | 'adj' | 'adv' | 'phrase' | 'other';
 
 export interface Word {
   id: string;
   el: string;
   ru: string;
+  pos?: Pos;
   forms?: { aorist?: string; future?: string };
   conj?: Conj;
   tags: string[];

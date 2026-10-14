@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { extractMessages, hasGreek, listChats, nextOffset, type TgUpdate } from '../src/lib/telegram/updates';
+import { chatWarnings, extractMessages, hasGreek, listChats, nextOffset, type TgUpdate } from '../src/lib/telegram/updates';
 import { messagesFromExport } from '../src/lib/telegram/export';
 
 const CHAT = -100123;
@@ -39,5 +39,18 @@ describe('messagesFromExport', () => {
       { id: 3, type: 'message', date: '2025-06-07T10:00:00', text: 'Д\\З' },
     ] };
     expect(messagesFromExport(data)).toEqual([{ id: 1, date: '2025-06-07', text: 'Сущ:\nτο κορίτσι-девочка' }]);
+  });
+});
+
+describe('chatWarnings', () => {
+  it('no warnings for the configured chat only', () => expect(chatWarnings([msg(1, 1, 'α')], CHAT)).toEqual([]));
+  it('warns about migration', () => {
+    const w = chatWarnings([msg(1, 1, 'α', { migrate_to_chat_id: -100999 })], CHAT);
+    expect(w).toEqual(['Группа перенесена в чат -100999 — обновите TELEGRAM_CHAT_ID']);
+  });
+  it('warns once per other chat', () => {
+    const a = msg(1, 1, 'α'); a.message!.chat = { id: 5, type: 'group', title: 'Other' };
+    const b = msg(2, 2, 'β'); b.message!.chat = { id: 5, type: 'group', title: 'Other' };
+    expect(chatWarnings([a, b, msg(3, 3, 'γ')], CHAT)).toEqual(['Сообщения из другого чата 5 (Other) пропущены']);
   });
 });

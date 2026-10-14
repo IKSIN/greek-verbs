@@ -2,7 +2,7 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import type { Word } from '../src/lib/types';
-import { extractMessages, listChats, nextOffset, type TgUpdate } from '../src/lib/telegram/updates';
+import { chatWarnings, extractMessages, listChats, nextOffset, type TgUpdate } from '../src/lib/telegram/updates';
 import { extractWords } from '../src/lib/telegram/llm';
 import { mergeWords, type MergeResult } from '../src/lib/telegram/merge';
 import { formatReply } from '../src/lib/telegram/reply';
@@ -43,9 +43,17 @@ async function main() {
   }
   if (!updates.length) return console.log('Новых сообщений нет');
   const chatId = Number(chatIdRaw);
+  const warnings = chatWarnings(updates, chatId);
+  warnings.forEach((w) => console.warn(w));
+  // миграция группы: падаем до коммита, offset не сдвигается
+  const migration = warnings.find((w) => w.startsWith('Группа перенесена'));
+  if (migration) throw new Error(migration);
   const messages = extractMessages(updates, chatId);
   console.log(`Обновлений: ${updates.length}, сообщений с греческим: ${messages.length}`);
-  const llm = await extractWords(messages, { apiKey: env('OPENROUTER_API_KEY'), model: env('OPENROUTER_MODEL', false) });
+  const llm = await extractWords(messages, {
+    apiKey: env('OPENROUTER_API_KEY'), model: env('OPENROUTER_MODEL', false),
+    tags: [...new Set(readJson<Word[]>(WORDS, []).flatMap((w) => w.tags ?? []))].sort(), // существующие темы
+  });
   llm.rejected.forEach((r) => console.warn('Отброшено моделью:', r));
   const dates = new Map(messages.map((m) => [m.id, m.date]));
   const newOffset = nextOffset(updates, offset);

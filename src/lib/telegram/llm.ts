@@ -38,9 +38,13 @@ export function parseLlmWords(content: string, ids: Set<number>): { words: LlmWo
 
 export async function extractWords(
   messages: TgMessage[],
-  opts: { apiKey: string; model?: string; fetch?: typeof fetch },
+  opts: { apiKey: string; model?: string; fetch?: typeof fetch; tags?: string[] },
 ): Promise<{ words: LlmWord[]; rejected: string[] }> {
   const doFetch = opts.fetch ?? fetch;
+  // существующие темы — в конец системного промпта, чтобы не плодить синонимы
+  const system = opts.tags?.length
+    ? `${SYSTEM_PROMPT}\n\nСуществующие темы словаря (используй их, новую тему вводи только если ни одна не подходит): ${opts.tags.join(', ')}`
+    : SYSTEM_PROMPT;
   const out = { words: [] as LlmWord[], rejected: [] as string[] };
   for (let i = 0; i < messages.length; i += BATCH_SIZE) {
     const batch = messages.slice(i, i + BATCH_SIZE);
@@ -51,9 +55,10 @@ export async function extractWords(
       body: JSON.stringify({
         model: opts.model || DEFAULT_MODEL,
         temperature: 0,
+        max_tokens: 8000,
         provider: { require_parameters: true }, // только провайдеры с поддержкой json_schema
         messages: [
-          { role: 'system', content: SYSTEM_PROMPT },
+          { role: 'system', content: system },
           { role: 'user', content: JSON.stringify(batch) },
         ],
         response_format: { type: 'json_schema', json_schema: { name: 'words', strict: true, schema: WORDS_SCHEMA } },

@@ -1,4 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
+import { SYSTEM_PROMPT } from '../src/lib/telegram/prompt';
 import { BATCH_SIZE, DEFAULT_MODEL, extractWords, parseLlmWords } from '../src/lib/telegram/llm';
 
 const item = (p: Record<string, unknown> = {}) => ({
@@ -38,9 +39,23 @@ describe('extractWords', () => {
     const sent = JSON.parse(init.body as string);
     expect(sent.model).toBe(DEFAULT_MODEL);
     expect(sent.temperature).toBe(0);
+    expect(sent.max_tokens).toBe(8000);
     expect(sent.provider.require_parameters).toBe(true);
     expect(sent.response_format.json_schema.strict).toBe(true);
     expect(JSON.parse(sent.messages[1].content)).toEqual(msgs(1));
+  });
+  it('system prompt is unchanged without tags', async () => {
+    const f = vi.fn(async () => ok([]));
+    await extractWords(msgs(1), { apiKey: 'k', fetch: f as never, tags: [] });
+    const sent = JSON.parse((f.mock.calls[0] as unknown as [string, RequestInit])[1].body as string);
+    expect(sent.messages[0].content).toBe(SYSTEM_PROMPT);
+  });
+  it('appends existing tags to system prompt', async () => {
+    const f = vi.fn(async () => ok([]));
+    await extractWords(msgs(1), { apiKey: 'k', fetch: f as never, tags: ['дом', 'еда'] });
+    const sent = JSON.parse((f.mock.calls[0] as unknown as [string, RequestInit])[1].body as string);
+    expect(sent.messages[0].content).toContain('дом, еда');
+    expect(sent.messages[0].content.startsWith(SYSTEM_PROMPT)).toBe(true);
   });
   it('batches by BATCH_SIZE', async () => {
     const f = vi.fn(async () => ok([]));

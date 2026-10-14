@@ -13331,5 +13331,17 @@
     "source": "user",
     "addedBy": "Telegram",
     "addedAt": "2026-10-13"
+  },
+  {
+    "id": "omprela",
+    "el": "η ομπρέλα",
+    "ru": "зонт",
+    "pos": "noun",
+    "tags": [
+      "погода"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-14"
   }
 ]

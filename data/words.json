@@ -4245,5 +4245,9091 @@
     "source": "base",
     "addedBy": null,
     "addedAt": "2026-10-10"
+  },
+  {
+    "id": "daskala",
+    "el": "η δασκάλα",
+    "ru": "учительница (в школе)",
+    "pos": "noun",
+    "tags": [
+      "учёба",
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "daskalos",
+    "el": "ο δάσκαλος",
+    "ru": "учитель (в школе)",
+    "pos": "noun",
+    "tags": [
+      "учёба",
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "kathigitria",
+    "el": "η καθηγήτρια",
+    "ru": "преподавательница (университета)",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "kathigitis",
+    "el": "ο καθηγητής",
+    "ru": "преподаватель (университета)",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "spiti",
+    "el": "το σπίτι",
+    "ru": "дом",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "sto-spiti",
+    "el": "στο σπίτι",
+    "ru": "дома",
+    "pos": "phrase",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "apo-tin-oykrania",
+    "el": "από την Ουκρανία",
+    "ru": "из Украины",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "pateras",
+    "el": "ο πατέρας",
+    "ru": "папа, отец",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "mpampas",
+    "el": "ο μπαμπάς",
+    "ru": "папа",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "gnorimia",
+    "el": "η γνωριμία",
+    "ru": "знакомство",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "posa-chronia",
+    "el": "πόσα χρόνια;",
+    "ru": "сколько лет? (не о возрасте)",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "poson-chronon",
+    "el": "πόσων χρονών;",
+    "ru": "сколько лет? (о возрасте)",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "arrostos",
+    "el": "άρρωστος",
+    "ru": "больной",
+    "pos": "adj",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "leykorosia",
+    "el": "η Λευκορωσία",
+    "ru": "Беларусь",
+    "pos": "noun",
+    "tags": [
+      "страны"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "goneas",
+    "el": "ο γονέας",
+    "ru": "родитель",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "syzygos",
+    "el": "ο σύζυγος",
+    "ru": "супруг, супруга",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "filos",
+    "el": "ο φίλος",
+    "ru": "друг",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "fili",
+    "el": "η φίλη",
+    "ru": "подруга",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "antras",
+    "el": "ο άντρας",
+    "ru": "мужчина",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "gynaika",
+    "el": "η γυναίκα",
+    "ru": "женщина",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "paidi",
+    "el": "το παιδί",
+    "ru": "ребёнок",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "adelfos",
+    "el": "ο αδελφός",
+    "ru": "брат",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "aderfos",
+    "el": "ο αδερφός",
+    "ru": "брат",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "adelfi",
+    "el": "η αδελφή",
+    "ru": "сестра",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "aderfi",
+    "el": "η αδερφή",
+    "ru": "сестра",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "pappoys",
+    "el": "ο παππούς",
+    "ru": "дедушка",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "giagia",
+    "el": "η γιαγιά",
+    "ru": "бабушка",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "xadelfos",
+    "el": "ο ξάδελφος",
+    "ru": "двоюродный брат",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "xadelfi",
+    "el": "η ξαδέλφη",
+    "ru": "двоюродная сестра",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "kori",
+    "el": "η κόρη",
+    "ru": "дочь",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "gios",
+    "el": "ο γιος",
+    "ru": "сын",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "skylos",
+    "el": "ο σκύλος",
+    "ru": "собака",
+    "pos": "noun",
+    "tags": [
+      "животные"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "skylaki",
+    "el": "το σκυλάκι",
+    "ru": "собачка",
+    "pos": "noun",
+    "tags": [
+      "животные"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "spoydes",
+    "el": "οι σπουδές",
+    "ru": "учёба",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "ellinika",
+    "el": "τα ελληνικά",
+    "ru": "греческий язык",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "psonia",
+    "el": "τα ψώνια",
+    "ru": "покупки",
+    "pos": "noun",
+    "tags": [
+      "покупки"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "keramiki",
+    "el": "η κεραμική",
+    "ru": "керамика",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "doyleia",
+    "el": "η δουλειά",
+    "ru": "работа",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "paizo-ta-paichnidia",
+    "el": "παίζω τα παιχνίδια",
+    "ru": "играть в игры",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "ypologistis",
+    "el": "ο υπολογιστής",
+    "ru": "компьютер",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "zoi",
+    "el": "η ζωή",
+    "ru": "жизнь",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-03"
+  },
+  {
+    "id": "gi-ayto",
+    "el": "γι' αυτό",
+    "ru": "поэтому",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "giati",
+    "el": "γιατί;",
+    "ru": "почему? потому что",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "edo",
+    "el": "εδώ",
+    "ru": "здесь",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "ekei",
+    "el": "εκεί",
+    "ru": "там",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "tora",
+    "el": "τώρα",
+    "ru": "сейчас",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "pote",
+    "el": "πότε;",
+    "ru": "когда?",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "proi",
+    "el": "το πρωί",
+    "ru": "утро, утром",
+    "pos": "noun",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "mesimeri",
+    "el": "το μεσημέρι",
+    "ru": "день, днём",
+    "pos": "noun",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "apogeyma",
+    "el": "το απόγευμα",
+    "ru": "после обеда",
+    "pos": "noun",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "vrady",
+    "el": "το βράδυ",
+    "ru": "вечер, вечером",
+    "pos": "noun",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "nychta",
+    "el": "η νύχτα",
+    "ru": "ночь, ночью",
+    "pos": "noun",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "simera",
+    "el": "σήμερα",
+    "ru": "сегодня",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "apopse",
+    "el": "απόψε",
+    "ru": "сегодня вечером",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "simera-to-vrady",
+    "el": "σήμερα το βράδυ",
+    "ru": "сегодня вечером",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "panta",
+    "el": "πάντα",
+    "ru": "всегда",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "i",
+    "el": "ή",
+    "ru": "или",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "alla",
+    "el": "αλλά",
+    "ru": "но",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "ma",
+    "el": "μα",
+    "ru": "но",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "episis",
+    "el": "επίσης",
+    "ru": "тоже",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "dikos-moy",
+    "el": "ο δικός μου",
+    "ru": "мой собственный, личный",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "me-mena",
+    "el": "με μένα",
+    "ru": "со мной",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "me-sena",
+    "el": "με σένα",
+    "ru": "с тобой",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "apo",
+    "el": "από",
+    "ru": "от, из",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-05-04"
+  },
+  {
+    "id": "tha-ithela",
+    "el": "θα ήθελα",
+    "ru": "я хотел бы",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "konta",
+    "el": "κοντά",
+    "ru": "близко, рядом",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "pio",
+    "el": "πιο",
+    "ru": "более",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "pio-konta",
+    "el": "πιο κοντά",
+    "ru": "ближе",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "ammos",
+    "el": "η άμμος",
+    "ru": "песок",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "otan",
+    "el": "όταν",
+    "ru": "когда (в утвердительном предложении)",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "tetoios",
+    "el": "τέτοιος",
+    "ru": "такой",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "chilia",
+    "el": "χίλια",
+    "ru": "одна тысяча",
+    "pos": "other",
+    "tags": [
+      "числа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "chiliades",
+    "el": "χιλιάδες",
+    "ru": "тысячи (мн. число)",
+    "pos": "other",
+    "tags": [
+      "числа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "poy-akrivos",
+    "el": "πού ακριβώς;",
+    "ru": "где точно? где именно?",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "genethlia",
+    "el": "τα γενέθλια",
+    "ru": "день рождения",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "mazi",
+    "el": "μαζί",
+    "ru": "вместе",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "perissotero",
+    "el": "περισσότερο",
+    "ru": "больше",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "pio-poly",
+    "el": "πιο πολύ",
+    "ru": "больше",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "gia",
+    "el": "για",
+    "ru": "для, о, об, за",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "meta",
+    "el": "μετά",
+    "ru": "после, потом",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "mechri",
+    "el": "μέχρι",
+    "ru": "до",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "os",
+    "el": "ως",
+    "ru": "до",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "eos",
+    "el": "έως",
+    "ru": "до",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "me",
+    "el": "με",
+    "ru": "с",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "olo-ton-chrono",
+    "el": "όλο τον χρόνο",
+    "ru": "весь год",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "olos",
+    "el": "όλος",
+    "ru": "весь",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "ola",
+    "el": "όλα",
+    "ru": "всё",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "me-poion",
+    "el": "με ποιον;",
+    "ru": "с кем?",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "poion",
+    "el": "ποιον;",
+    "ru": "кого?",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "monos-moy",
+    "el": "μόνος μου",
+    "ru": "сам, самостоятельно, в одиночестве",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "kathe-mera",
+    "el": "κάθε μέρα",
+    "ru": "каждый день",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "chairo-poly",
+    "el": "χαίρω πολύ",
+    "ru": "очень рад(а)",
+    "pos": "phrase",
+    "tags": [
+      "общение"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "ton-eleythero-chrono",
+    "el": "τον ελεύθερο χρόνο",
+    "ru": "в свободное время",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "pes-moy",
+    "el": "πες μου!",
+    "ru": "скажи мне!",
+    "pos": "phrase",
+    "tags": [
+      "общение"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "peste-moy",
+    "el": "πέστε μου",
+    "ru": "скажите мне",
+    "pos": "phrase",
+    "tags": [
+      "общение"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "peite-moy",
+    "el": "πείτε μου",
+    "ru": "скажите мне",
+    "pos": "phrase",
+    "tags": [
+      "общение"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "tin-gynaika-moy-tin-lene-anna",
+    "el": "την γυναίκα μου την λένε Άννα",
+    "ru": "мою жену зовут Анна",
+    "pos": "phrase",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "ton-antra-moy-ton-lene-alexi",
+    "el": "τον άντρα μου τον λένε Αλέξη",
+    "ru": "моего мужа зовут Алексей",
+    "pos": "phrase",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "se",
+    "el": "σε",
+    "ru": "в, у, при, на, к, по, через",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "mitera",
+    "el": "η μητέρα",
+    "ru": "мама",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "mathima",
+    "el": "το μάθημα",
+    "ru": "урок",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "kypros",
+    "el": "η Κύπρος",
+    "ru": "Кипр",
+    "pos": "noun",
+    "tags": [
+      "страны"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "lemesos",
+    "el": "η Λεμεσός",
+    "ru": "Лимасол",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "pafos",
+    "el": "η Πάφος",
+    "ru": "Пафос",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "koritsi",
+    "el": "το κορίτσι",
+    "ru": "девочка",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "agori",
+    "el": "το αγόρι",
+    "ru": "мальчик",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "molyvi",
+    "el": "το μολύβι",
+    "ru": "карандаш",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "stylo",
+    "el": "το στυλό",
+    "ru": "ручка",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "taxidi",
+    "el": "το ταξίδι",
+    "ru": "путешествие",
+    "pos": "noun",
+    "tags": [
+      "путешествия"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "kaysonas",
+    "el": "ο καύσωνας",
+    "ru": "жара",
+    "pos": "noun",
+    "tags": [
+      "погода"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "vrochi",
+    "el": "η βροχή",
+    "ru": "дождь",
+    "pos": "noun",
+    "tags": [
+      "погода"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "thalassa",
+    "el": "η θάλασσα",
+    "ru": "море",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "volta",
+    "el": "η βόλτα",
+    "ru": "прогулка",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "syntaxioychos",
+    "el": "ο συνταξιούχος",
+    "ru": "пенсионер",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "syntaxioychi",
+    "el": "η συνταξιούχη",
+    "ru": "пенсионерка",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "sachalini",
+    "el": "η Σαχαλίνη",
+    "ru": "Сахалин",
+    "pos": "noun",
+    "tags": [
+      "страны"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "mathima-ton-ellinikon",
+    "el": "το μάθημα των ελληνικών",
+    "ru": "урок греческого",
+    "pos": "phrase",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "gallia",
+    "el": "η Γαλλία",
+    "ru": "Франция",
+    "pos": "noun",
+    "tags": [
+      "страны"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "londino",
+    "el": "το Λονδίνο",
+    "ru": "Лондон",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "oikogeneia",
+    "el": "η οικογένεια",
+    "ru": "семья",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "taxi",
+    "el": "η τάξη",
+    "ru": "класс",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "taxi-2",
+    "el": "το ταξί",
+    "ru": "такси",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "selida",
+    "el": "η σελίδα",
+    "ru": "страница",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "dialogos",
+    "el": "ο διάλογος",
+    "ru": "диалог",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "alitheia",
+    "el": "η αλήθεια",
+    "ru": "правда",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "fora",
+    "el": "η φορά",
+    "ru": "раз",
+    "pos": "noun",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "mia-fora",
+    "el": "μία φορά",
+    "ru": "один раз, однажды",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "skoni",
+    "el": "η σκόνη",
+    "ru": "пыль",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "kafeneio",
+    "el": "το καφενείο",
+    "ru": "кафе",
+    "pos": "noun",
+    "tags": [
+      "город",
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "parti",
+    "el": "το πάρτι",
+    "ru": "вечеринка",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "paralia",
+    "el": "η παραλία",
+    "ru": "пляж, набережная",
+    "pos": "noun",
+    "tags": [
+      "природа",
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "klima",
+    "el": "το κλίμα",
+    "ru": "климат",
+    "pos": "noun",
+    "tags": [
+      "погода"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "diamerisma",
+    "el": "το διαμέρισμα",
+    "ru": "квартира",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "idioktitis",
+    "el": "ο ιδιοκτήτης",
+    "ru": "хозяин, владелец",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "enoikio",
+    "el": "το ενοίκιο",
+    "ru": "аренда",
+    "pos": "noun",
+    "tags": [
+      "дом",
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-07"
+  },
+  {
+    "id": "dieythyntis",
+    "el": "ο διευθυντής",
+    "ru": "менеджер, директор",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-12"
+  },
+  {
+    "id": "loipon",
+    "el": "λοιπόν",
+    "ru": "итак",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-18"
+  },
+  {
+    "id": "meta-tin-doyleia",
+    "el": "μετά την δουλειά",
+    "ru": "после работы",
+    "pos": "phrase",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-18"
+  },
+  {
+    "id": "atzenta",
+    "el": "η ατζέντα",
+    "ru": "блокнот",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-19"
+  },
+  {
+    "id": "mipos",
+    "el": "μήπως",
+    "ru": "возможно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-19"
+  },
+  {
+    "id": "akoma",
+    "el": "ακόμα",
+    "ru": "ещё",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-19"
+  },
+  {
+    "id": "spania",
+    "el": "σπάνια",
+    "ru": "редко",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-19"
+  },
+  {
+    "id": "sychna",
+    "el": "συχνά",
+    "ru": "часто",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-19"
+  },
+  {
+    "id": "adynatos",
+    "el": "αδύνατος",
+    "ru": "невозможный, невозможно",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-19"
+  },
+  {
+    "id": "katholoy",
+    "el": "καθόλου",
+    "ru": "совсем (не)",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-19"
+  },
+  {
+    "id": "rantevoy",
+    "el": "το ραντεβού",
+    "ru": "встреча (официальная)",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "synantisi",
+    "el": "η συνάντηση",
+    "ru": "встреча (с друзьями, неофициальная)",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "ti",
+    "el": "τι;",
+    "ru": "что? (в вопросе)",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "oti",
+    "el": "ότι",
+    "ru": "что (в придаточном предложении)",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "kali-orexi",
+    "el": "καλή όρεξη!",
+    "ru": "приятного аппетита!",
+    "pos": "phrase",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "lefta",
+    "el": "τα λεφτά",
+    "ru": "деньги",
+    "pos": "noun",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "trapeza",
+    "el": "η τράπεζα",
+    "ru": "банк",
+    "pos": "noun",
+    "tags": [
+      "деньги",
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "kyria",
+    "el": "η κυρία",
+    "ru": "госпожа",
+    "pos": "noun",
+    "tags": [
+      "общение"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "kyrios",
+    "el": "ο κύριος",
+    "ru": "господин",
+    "pos": "noun",
+    "tags": [
+      "общение"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "echo-megali-simasia",
+    "el": "έχω μεγάλη σημασία",
+    "ru": "иметь большое значение",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "chora",
+    "el": "η χώρα",
+    "ru": "страна",
+    "pos": "noun",
+    "tags": [
+      "страны"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "apo-do",
+    "el": "από δω",
+    "ru": "вот здесь",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "kentro",
+    "el": "το κέντρο",
+    "ru": "центр",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-21"
+  },
+  {
+    "id": "laimos",
+    "el": "ο λαιμός",
+    "ru": "горло",
+    "pos": "noun",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-28"
+  },
+  {
+    "id": "ygeia",
+    "el": "η υγεία",
+    "ru": "здоровье",
+    "pos": "noun",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-28"
+  },
+  {
+    "id": "etaireia",
+    "el": "η εταιρεία",
+    "ru": "компания",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-28"
+  },
+  {
+    "id": "anthropos",
+    "el": "ο άνθρωπος",
+    "ru": "человек",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-28"
+  },
+  {
+    "id": "synadelfos",
+    "el": "ο συνάδελφος",
+    "ru": "коллега",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-28"
+  },
+  {
+    "id": "poso-echei",
+    "el": "πόσο έχει;",
+    "ru": "сколько стоит?",
+    "pos": "phrase",
+    "tags": [
+      "деньги",
+      "покупки"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-28"
+  },
+  {
+    "id": "poso-kanei",
+    "el": "πόσο κάνει;",
+    "ru": "сколько стоит?",
+    "pos": "phrase",
+    "tags": [
+      "деньги",
+      "покупки"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-28"
+  },
+  {
+    "id": "poso-kostizei",
+    "el": "πόσο κοστίζει;",
+    "ru": "сколько стоит?",
+    "pos": "phrase",
+    "tags": [
+      "деньги",
+      "покупки"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-06-28"
+  },
+  {
+    "id": "stathero",
+    "el": "το σταθερό",
+    "ru": "стационарный телефон",
+    "pos": "noun",
+    "tags": [
+      "связь"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "kinito",
+    "el": "το κινητό",
+    "ru": "мобильный телефон",
+    "pos": "noun",
+    "tags": [
+      "связь"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "exo",
+    "el": "έξω",
+    "ru": "на улице, снаружи, вне",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "kano-volta",
+    "el": "κάνω βόλτα",
+    "ru": "гулять (дословно: делать прогулку)",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "vlepo-tileorasi",
+    "el": "βλέπω τηλεόραση",
+    "ru": "смотреть телевизор",
+    "pos": "phrase",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "gia-mena",
+    "el": "για μένα",
+    "ru": "для меня",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "gia-sena",
+    "el": "για σένα",
+    "ru": "для тебя",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "polys",
+    "el": "πολύς",
+    "ru": "много",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "poly",
+    "el": "πολύ",
+    "ru": "очень",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "ligos",
+    "el": "λίγος",
+    "ru": "мало (как прилагательное)",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "ligo",
+    "el": "λίγο",
+    "ru": "мало (наречие)",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "para-poly",
+    "el": "πάρα πολύ",
+    "ru": "очень-очень, очень сильно",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "ponos",
+    "el": "ο πόνος",
+    "ru": "боль",
+    "pos": "noun",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "kefali",
+    "el": "το κεφάλι",
+    "ru": "голова",
+    "pos": "noun",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "pao-volta",
+    "el": "πάω βόλτα",
+    "ru": "гулять",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "synecheia",
+    "el": "συνέχεια",
+    "ru": "постоянно",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "plateia",
+    "el": "η πλατεία",
+    "ru": "площадь",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "allos",
+    "el": "άλλος",
+    "ru": "другой",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "kinimatografos",
+    "el": "ο κινηματογράφος",
+    "ru": "кинотеатр",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "dipla",
+    "el": "δίπλα",
+    "ru": "рядом, возле",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "prepei-na",
+    "el": "πρέπει να",
+    "ru": "надо, должен (+ глагол, не изменяется)",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "gia-na",
+    "el": "για να",
+    "ru": "чтобы (+ глагол)",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "ela",
+    "el": "έλα",
+    "ru": "давай",
+    "pos": "other",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "mono",
+    "el": "μόνο",
+    "ru": "только",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "gyro",
+    "el": "γύρω",
+    "ru": "около",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "pigaino",
+    "el": "πηγαίνω",
+    "ru": "идти, ехать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "πήγα",
+      "future": "θα πάω"
+    },
+    "conj": "A",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "diakopes",
+    "el": "οι διακοπές",
+    "ru": "отпуск, каникулы",
+    "pos": "noun",
+    "tags": [
+      "путешествия"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "kaio",
+    "el": "καίω",
+    "ru": "сжигать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "έκαψα",
+      "future": "θα κάψω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "ftaio",
+    "el": "φταίω",
+    "ru": "быть виновным",
+    "pos": "verb",
+    "forms": {
+      "aorist": "έφταιξα",
+      "future": "θα φταίξω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "pigaino-me-to-aytokinito",
+    "el": "πηγαίνω με το αυτοκίνητο",
+    "ru": "ехать на машине",
+    "pos": "phrase",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "leoforeio",
+    "el": "το λεωφορείο",
+    "ru": "автобус",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "trolei",
+    "el": "το τρόλεϊ",
+    "ru": "троллейбус",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "tram",
+    "el": "το τραμ",
+    "ru": "трамвай",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "treno",
+    "el": "το τρένο",
+    "ru": "поезд",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "metro",
+    "el": "το μετρό",
+    "ru": "метро",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "aeroplano",
+    "el": "το αεροπλάνο",
+    "ru": "самолёт",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "ploio",
+    "el": "το πλοίο",
+    "ru": "корабль",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "podilato",
+    "el": "το ποδήλατο",
+    "ru": "велосипед",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "motosikleta",
+    "el": "η μοτοσικλέτα",
+    "ru": "мотоцикл",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "patini",
+    "el": "το πατίνι",
+    "ru": "самокат",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "synithos",
+    "el": "συνήθως",
+    "ru": "обычно",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "dieythynsi",
+    "el": "η διεύθυνση",
+    "ru": "адрес",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "periochi",
+    "el": "η περιοχή",
+    "ru": "область, район",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-02"
+  },
+  {
+    "id": "katastima",
+    "el": "το κατάστημα",
+    "ru": "магазин (одежды)",
+    "pos": "noun",
+    "tags": [
+      "покупки"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "magazi",
+    "el": "το μαγαζί",
+    "ru": "магазин",
+    "pos": "noun",
+    "tags": [
+      "покупки"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "emporiko-kentro",
+    "el": "το εμπορικό κέντρο",
+    "ru": "торговый центр",
+    "pos": "phrase",
+    "tags": [
+      "покупки",
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "emporos",
+    "el": "ο έμπορος",
+    "ru": "торговец",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "agapi-moy",
+    "el": "αγάπη μου!",
+    "ru": "любовь моя!",
+    "pos": "phrase",
+    "tags": [
+      "общение"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "symfonos",
+    "el": "σύμφωνος",
+    "ru": "согласный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "anatoli",
+    "el": "η ανατολή",
+    "ru": "восток",
+    "pos": "noun",
+    "tags": [
+      "география"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "dysi",
+    "el": "η δύση",
+    "ru": "запад",
+    "pos": "noun",
+    "tags": [
+      "география"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "vorras",
+    "el": "ο βορράς",
+    "ru": "север",
+    "pos": "noun",
+    "tags": [
+      "география"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "notos",
+    "el": "ο νότος",
+    "ru": "юг",
+    "pos": "noun",
+    "tags": [
+      "география"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "petra",
+    "el": "η πέτρα",
+    "ru": "камень",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "chalarono",
+    "el": "χαλαρώνω",
+    "ru": "расслабляться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "χαλάρωσα",
+      "future": "θα χαλαρώσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "voyno",
+    "el": "το βουνό",
+    "ru": "гора",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "milao-ellinika",
+    "el": "μιλάω ελληνικά",
+    "ru": "разговаривать по-гречески",
+    "pos": "phrase",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "kales-diakopes",
+    "el": "καλές διακοπές!",
+    "ru": "хорошего отпуска!",
+    "pos": "phrase",
+    "tags": [
+      "путешествия"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-05"
+  },
+  {
+    "id": "kano-lathos",
+    "el": "κάνω λάθος",
+    "ru": "делать ошибку, ошибаться",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-23"
+  },
+  {
+    "id": "gia-na-min",
+    "el": "για να μην",
+    "ru": "чтобы не (+ глагол)",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-23"
+  },
+  {
+    "id": "apenanti-apo",
+    "el": "απέναντι από",
+    "ru": "напротив (чего-либо)",
+    "pos": "phrase",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-23"
+  },
+  {
+    "id": "ergastirio",
+    "el": "το εργαστήριο",
+    "ru": "лаборатория",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-23"
+  },
+  {
+    "id": "parko",
+    "el": "το πάρκο",
+    "ru": "парк",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-25"
+  },
+  {
+    "id": "nosokomeio",
+    "el": "το νοσοκομείο",
+    "ru": "больница",
+    "pos": "noun",
+    "tags": [
+      "город",
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-25"
+  },
+  {
+    "id": "ergasia",
+    "el": "η εργασία",
+    "ru": "работа, труд",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-25"
+  },
+  {
+    "id": "echei-symvei",
+    "el": "έχει συμβεί",
+    "ru": "случилось",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-26"
+  },
+  {
+    "id": "nipiagogeio",
+    "el": "το νηπιαγωγείο",
+    "ru": "детский сад",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-07-26"
+  },
+  {
+    "id": "moy-aresei",
+    "el": "μου αρέσει",
+    "ru": "мне нравится",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-01"
+  },
+  {
+    "id": "kano-mpanio",
+    "el": "κάνω μπάνιο",
+    "ru": "купаться",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-02"
+  },
+  {
+    "id": "mazi-moy",
+    "el": "μαζί μου",
+    "ru": "со мной, вместе со мной",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-02"
+  },
+  {
+    "id": "grafeio",
+    "el": "το γραφείο",
+    "ru": "офис, письменный стол",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-02"
+  },
+  {
+    "id": "gramma",
+    "el": "το γράμμα",
+    "ru": "письмо",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-02"
+  },
+  {
+    "id": "provlima",
+    "el": "το πρόβλημα",
+    "ru": "проблема",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-02"
+  },
+  {
+    "id": "thema",
+    "el": "το θέμα",
+    "ru": "тема",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-02"
+  },
+  {
+    "id": "panepistimio",
+    "el": "το πανεπιστήμιο",
+    "ru": "университет",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-02"
+  },
+  {
+    "id": "giatros",
+    "el": "ο γιατρός",
+    "ru": "врач",
+    "pos": "noun",
+    "tags": [
+      "здоровье",
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-02"
+  },
+  {
+    "id": "mathitis",
+    "el": "ο μαθητής",
+    "ru": "ученик",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-02"
+  },
+  {
+    "id": "scholeio",
+    "el": "το σχολείο",
+    "ru": "школа",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-02"
+  },
+  {
+    "id": "domatio",
+    "el": "το δωμάτιο",
+    "ru": "комната",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-10"
+  },
+  {
+    "id": "foteina",
+    "el": "φωτεινά",
+    "ru": "светло",
+    "pos": "adv",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-10"
+  },
+  {
+    "id": "skoteina",
+    "el": "σκοτεινά",
+    "ru": "темно",
+    "pos": "adv",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-10"
+  },
+  {
+    "id": "orofos",
+    "el": "ο όροφος",
+    "ru": "этаж",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-10"
+  },
+  {
+    "id": "ston-deytero-orofo",
+    "el": "στον δεύτερο όροφο",
+    "ru": "на втором этаже",
+    "pos": "phrase",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-10"
+  },
+  {
+    "id": "kati",
+    "el": "κάτι",
+    "ru": "что-то",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-16"
+  },
+  {
+    "id": "kleidi",
+    "el": "το κλειδί",
+    "ru": "ключ",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-16"
+  },
+  {
+    "id": "petseta",
+    "el": "η πετσέτα",
+    "ru": "полотенце",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-16"
+  },
+  {
+    "id": "estiatorio",
+    "el": "το εστιατόριο",
+    "ru": "ресторан",
+    "pos": "noun",
+    "tags": [
+      "еда",
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-16"
+  },
+  {
+    "id": "mpoykali",
+    "el": "το μπουκάλι",
+    "ru": "бутылка",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-16"
+  },
+  {
+    "id": "potiri",
+    "el": "το ποτήρι",
+    "ru": "стакан",
+    "pos": "noun",
+    "tags": [
+      "еда",
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "flitzani",
+    "el": "το φλιτζάνι",
+    "ru": "чашка, кружка",
+    "pos": "noun",
+    "tags": [
+      "еда",
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "koytali",
+    "el": "το κουτάλι",
+    "ru": "ложка",
+    "pos": "noun",
+    "tags": [
+      "еда",
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "piroyni",
+    "el": "το πηρούνι",
+    "ru": "вилка",
+    "pos": "noun",
+    "tags": [
+      "еда",
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "machairi",
+    "el": "το μαχαίρι",
+    "ru": "нож",
+    "pos": "noun",
+    "tags": [
+      "еда",
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "sovaros",
+    "el": "σοβαρός",
+    "ru": "серьёзный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "theios",
+    "el": "ο θείος",
+    "ru": "дядя",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "theia",
+    "el": "η θεία",
+    "ru": "тётя",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "nisi",
+    "el": "το νησί",
+    "ru": "остров",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "foititis",
+    "el": "ο φοιτητής",
+    "ru": "студент",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "vivlio",
+    "el": "το βιβλίο",
+    "ru": "книга",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "kanadas",
+    "el": "ο Καναδάς",
+    "ru": "Канада",
+    "pos": "noun",
+    "tags": [
+      "страны"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "kalytera",
+    "el": "καλύτερα",
+    "ru": "лучше",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-20"
+  },
+  {
+    "id": "xekoyrasi",
+    "el": "η ξεκούραση",
+    "ru": "отдых",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-23"
+  },
+  {
+    "id": "vasi",
+    "el": "η βάση",
+    "ru": "база",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-23"
+  },
+  {
+    "id": "elliniki-glossa",
+    "el": "η ελληνική γλώσσα",
+    "ru": "греческий язык",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-23"
+  },
+  {
+    "id": "kamia-fora",
+    "el": "καμιά φορά",
+    "ru": "иногда",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-23"
+  },
+  {
+    "id": "kano-peripato",
+    "el": "κάνω περίπατο",
+    "ru": "гулять (пешком)",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-23"
+  },
+  {
+    "id": "psilos",
+    "el": "ψηλός",
+    "ru": "высокий",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-28"
+  },
+  {
+    "id": "chamilos",
+    "el": "χαμηλός",
+    "ru": "низкий",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-28"
+  },
+  {
+    "id": "kryologima",
+    "el": "το κρυολόγημα",
+    "ru": "простуда",
+    "pos": "noun",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-28"
+  },
+  {
+    "id": "dyo-fores-tin-evdomada",
+    "el": "δυο φορές την εβδομάδα",
+    "ru": "2 раза в неделю",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-28"
+  },
+  {
+    "id": "gnoseis",
+    "el": "οι γνώσεις",
+    "ru": "знания",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-28"
+  },
+  {
+    "id": "ilikia",
+    "el": "η ηλικία",
+    "ru": "возраст",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-28"
+  },
+  {
+    "id": "chroma",
+    "el": "το χρώμα",
+    "ru": "цвет",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-28"
+  },
+  {
+    "id": "telos",
+    "el": "το τέλος",
+    "ru": "конец",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-28"
+  },
+  {
+    "id": "akomi",
+    "el": "ακόμη",
+    "ru": "ещё",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "kostoymi",
+    "el": "το κοστούμι",
+    "ru": "костюм",
+    "pos": "noun",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "kalos",
+    "el": "καλός",
+    "ru": "хороший",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "neos",
+    "el": "νέος",
+    "ru": "новый, молодой",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "ayli",
+    "el": "η αυλή",
+    "ru": "двор",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "stasi",
+    "el": "η στάση",
+    "ru": "остановка",
+    "pos": "noun",
+    "tags": [
+      "транспорт",
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "foyrnos",
+    "el": "ο φούρνος",
+    "ru": "пекарня",
+    "pos": "noun",
+    "tags": [
+      "еда",
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "koyzina",
+    "el": "η κουζίνα",
+    "ru": "кухня",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "dromos",
+    "el": "ο δρόμος",
+    "ru": "дорога",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "kanapes",
+    "el": "ο καναπές",
+    "ru": "диван",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "ntivani",
+    "el": "το ντιβάνι",
+    "ru": "диван",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "karekla",
+    "el": "η καρέκλα",
+    "ru": "стул",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "ntoylapa",
+    "el": "η ντουλάπα",
+    "ru": "шкаф",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "chorio",
+    "el": "το χωριό",
+    "ru": "деревня",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-08-31"
+  },
+  {
+    "id": "aderfia",
+    "el": "τα αδέρφια",
+    "ru": "брат и сестра, братья и сёстры",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-10"
+  },
+  {
+    "id": "politis",
+    "el": "ο πωλητής",
+    "ru": "продавец",
+    "pos": "noun",
+    "tags": [
+      "работа",
+      "покупки"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-10"
+  },
+  {
+    "id": "syggenis",
+    "el": "ο συγγενής",
+    "ru": "родственник",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "stis-diaforetikes-poleis",
+    "el": "στις διαφορετικές πόλεις",
+    "ru": "в разных городах",
+    "pos": "phrase",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "ergostasio",
+    "el": "το εργοστάσιο",
+    "ru": "завод",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "tornadoros",
+    "el": "ο τορναδόρος",
+    "ru": "токарь",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "mageiras",
+    "el": "ο μάγειρας",
+    "ru": "повар",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "apolamvano",
+    "el": "απολαμβάνω",
+    "ru": "увлекаться, наслаждаться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "απόλαυσα",
+      "future": "θα απολαύσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "kipoyriki",
+    "el": "η κηπουρική",
+    "ru": "садоводство",
+    "pos": "noun",
+    "tags": [
+      "хобби"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "kalliergo",
+    "el": "καλλιεργώ",
+    "ru": "выращивать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "καλλιέργησα",
+      "future": "θα καλλιεργήσω"
+    },
+    "conj": "B2",
+    "tags": [
+      "хобби"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "poikilia",
+    "el": "η ποικιλία",
+    "ru": "сорт, разновидность",
+    "pos": "noun",
+    "tags": [
+      "хобби"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "zoo",
+    "el": "το ζώο",
+    "ru": "животное",
+    "pos": "noun",
+    "tags": [
+      "животные"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "frontida",
+    "el": "η φροντίδα",
+    "ru": "забота",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "orofi",
+    "el": "η οροφή",
+    "ru": "крыша",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "peristeri",
+    "el": "το περιστέρι",
+    "ru": "голубь",
+    "pos": "noun",
+    "tags": [
+      "животные"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "skantzochoiros",
+    "el": "ο σκαντζόχοιρος",
+    "ru": "ёж",
+    "pos": "noun",
+    "tags": [
+      "животные"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "kithara",
+    "el": "η κιθάρα",
+    "ru": "гитара",
+    "pos": "noun",
+    "tags": [
+      "музыка"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "synanto",
+    "el": "συναντώ",
+    "ru": "видеться, встречаться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "συνάντησα",
+      "future": "θα συναντήσω"
+    },
+    "conj": "B2",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "moy-leipoyn",
+    "el": "μου λείπουν",
+    "ru": "скучать (мне скучается)",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-12"
+  },
+  {
+    "id": "me-tetoio-tropo",
+    "el": "με τέτοιο τρόπο",
+    "ru": "таким образом",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "keimeno",
+    "el": "το κείμενο",
+    "ru": "текст",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "perilipsi",
+    "el": "η περίληψη",
+    "ru": "пересказ",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "rosikos",
+    "el": "ρωσικός",
+    "ru": "русский",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "vlepomai",
+    "el": "βλέπομαι",
+    "ru": "видеться (я вижусь)",
+    "pos": "verb",
+    "conj": "-ομαι",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "epikoinono",
+    "el": "επικοινωνώ",
+    "ru": "общаться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "επικοινώνησα",
+      "future": "θα επικοινωνήσω"
+    },
+    "conj": "B2",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "odos",
+    "el": "η οδός",
+    "ru": "улица",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "gyro-tis",
+    "el": "γύρω της",
+    "ru": "вокруг неё",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "gyro-moy",
+    "el": "γύρω μου",
+    "ru": "вокруг меня",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "piso-soy",
+    "el": "πίσω σου",
+    "ru": "сзади тебя",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "mprosta-mas",
+    "el": "μπροστά μας",
+    "ru": "перед нами",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "tote",
+    "el": "τότε",
+    "ru": "тогда",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "kafes",
+    "el": "ο καφές",
+    "ru": "кофе",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "pame-gia-kafe",
+    "el": "πάμε για καφέ",
+    "ru": "идём на кофе",
+    "pos": "phrase",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "kafeteria",
+    "el": "η καφετέρια",
+    "ru": "кафетерий",
+    "pos": "noun",
+    "tags": [
+      "город",
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "fagito",
+    "el": "το φαγητό",
+    "ru": "еда",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "proino",
+    "el": "το πρωινό",
+    "ru": "завтрак",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "mesimeriano",
+    "el": "το μεσημεριανό",
+    "ru": "обед (еда)",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "vradino",
+    "el": "το βραδινό",
+    "ru": "ужин",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "deipno",
+    "el": "το δείπνο",
+    "ru": "ужин",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "eleytheria",
+    "el": "η Ελευθερία",
+    "ru": "Свобода",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "ethniki-trapeza",
+    "el": "η εθνική τράπεζα",
+    "ru": "национальный банк",
+    "pos": "noun",
+    "tags": [
+      "город",
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-09-17"
+  },
+  {
+    "id": "opos",
+    "el": "όπως",
+    "ru": "как",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-04"
+  },
+  {
+    "id": "peripoy",
+    "el": "περίπου",
+    "ru": "приблизительно, примерно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-04"
+  },
+  {
+    "id": "nomizo-oti",
+    "el": "νομίζω ότι",
+    "ru": "я думаю, что",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-04"
+  },
+  {
+    "id": "kata-ti-gnomi-moy",
+    "el": "κατά τη γνώμη μου",
+    "ru": "по моему мнению",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-04"
+  },
+  {
+    "id": "ekthesi",
+    "el": "η έκθεση",
+    "ru": "сочинение",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-04"
+  },
+  {
+    "id": "volikos",
+    "el": "βολικός",
+    "ru": "уютный, комфортный",
+    "pos": "adj",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-04"
+  },
+  {
+    "id": "anetos",
+    "el": "άνετος",
+    "ru": "уютный, комфортный",
+    "pos": "adj",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-04"
+  },
+  {
+    "id": "ktiniatros",
+    "el": "ο κτηνίατρος",
+    "ru": "ветеринар",
+    "pos": "noun",
+    "tags": [
+      "работа",
+      "животные"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-08"
+  },
+  {
+    "id": "sostos",
+    "el": "σωστός",
+    "ru": "правильный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-08"
+  },
+  {
+    "id": "stomachi",
+    "el": "το στομάχι",
+    "ru": "живот",
+    "pos": "noun",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-08"
+  },
+  {
+    "id": "sosta",
+    "el": "σωστά",
+    "ru": "правильно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-08"
+  },
+  {
+    "id": "psygeio",
+    "el": "το ψυγείο",
+    "ru": "холодильник",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-08"
+  },
+  {
+    "id": "nostimos",
+    "el": "νόστιμος",
+    "ru": "вкусный",
+    "pos": "adj",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-08"
+  },
+  {
+    "id": "kanenas",
+    "el": "κανένας",
+    "ru": "никто",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-08"
+  },
+  {
+    "id": "prolavaino",
+    "el": "προλαβαίνω",
+    "ru": "успевать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "πρόλαβα",
+      "future": "θα προλάβω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-08"
+  },
+  {
+    "id": "grigora",
+    "el": "γρήγορα",
+    "ru": "быстро",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-08"
+  },
+  {
+    "id": "poylover",
+    "el": "το πουλόβερ",
+    "ru": "кофта, свитер",
+    "pos": "noun",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-08"
+  },
+  {
+    "id": "poto",
+    "el": "το ποτό",
+    "ru": "напиток",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-12"
+  },
+  {
+    "id": "cheri",
+    "el": "το χέρι",
+    "ru": "рука",
+    "pos": "noun",
+    "tags": [
+      "тело"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-12"
+  },
+  {
+    "id": "podi",
+    "el": "το πόδι",
+    "ru": "нога",
+    "pos": "noun",
+    "tags": [
+      "тело"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-12"
+  },
+  {
+    "id": "ntropi",
+    "el": "ντροπή!",
+    "ru": "позор!",
+    "pos": "other",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-12"
+  },
+  {
+    "id": "ntrepomai",
+    "el": "ντρέπομαι",
+    "ru": "мне стыдно",
+    "pos": "verb",
+    "forms": {
+      "aorist": "ντράπηκα",
+      "future": "θα ντραπώ"
+    },
+    "conj": "-ομαι",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-12"
+  },
+  {
+    "id": "forema",
+    "el": "το φόρεμα",
+    "ru": "платье",
+    "pos": "noun",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-12"
+  },
+  {
+    "id": "idios",
+    "el": "ίδιος",
+    "ru": "тот же самый",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-12"
+  },
+  {
+    "id": "xenodocheio",
+    "el": "το ξενοδοχείο",
+    "ru": "гостиница",
+    "pos": "noun",
+    "tags": [
+      "город",
+      "путешествия"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-12"
+  },
+  {
+    "id": "neo",
+    "el": "το νέο",
+    "ru": "новость",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-18"
+  },
+  {
+    "id": "dimos",
+    "el": "ο δήμος",
+    "ru": "мэрия",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-18"
+  },
+  {
+    "id": "ligotero",
+    "el": "λιγότερο",
+    "ru": "меньше",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-18"
+  },
+  {
+    "id": "ypnodomatio",
+    "el": "το υπνοδωμάτιο",
+    "ru": "спальня",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-18"
+  },
+  {
+    "id": "krevatokamara",
+    "el": "η κρεβατοκάμαρα",
+    "ru": "спальня",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-18"
+  },
+  {
+    "id": "chrisimos",
+    "el": "χρήσιμος",
+    "ru": "полезный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-22"
+  },
+  {
+    "id": "askisi",
+    "el": "η άσκηση",
+    "ru": "упражнение",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-22"
+  },
+  {
+    "id": "sta-ellinika",
+    "el": "στα ελληνικά",
+    "ru": "по-гречески",
+    "pos": "phrase",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-22"
+  },
+  {
+    "id": "stin-elliniki-glossa",
+    "el": "στην ελληνική γλώσσα",
+    "ru": "по-гречески",
+    "pos": "phrase",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-22"
+  },
+  {
+    "id": "mathima-tis-ellinikis-glossas",
+    "el": "το μάθημα της ελληνικής γλώσσας",
+    "ru": "урок греческого языка",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-22"
+  },
+  {
+    "id": "chamogelo",
+    "el": "το χαμόγελο",
+    "ru": "улыбка",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "thelo-na-min-doyleyo",
+    "el": "θέλω να μην δουλεύω",
+    "ru": "хочу не работать",
+    "pos": "phrase",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "kommotirio",
+    "el": "το κομμωτήριο",
+    "ru": "парикмахерская",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "psari",
+    "el": "το ψάρι",
+    "ru": "рыба",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "kreas",
+    "el": "το κρέας",
+    "ru": "мясо",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "etsi",
+    "el": "έτσι",
+    "ru": "так",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "akrivos",
+    "el": "ακριβός",
+    "ru": "дорогой",
+    "pos": "adj",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "ftinos",
+    "el": "φτηνός",
+    "ru": "дешёвый",
+    "pos": "adj",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "akrivos-2",
+    "el": "ακριβώς",
+    "ru": "именно, точно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "mystiko",
+    "el": "το μυστικό",
+    "ru": "тайна",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "sigoyra",
+    "el": "σίγουρα",
+    "ru": "наверняка, точно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "eisitirio",
+    "el": "το εισιτήριο",
+    "ru": "билет",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "isos",
+    "el": "ίσως",
+    "ru": "возможно, может быть (при ответе)",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "arga",
+    "el": "αργά",
+    "ru": "поздно",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "noris",
+    "el": "νωρίς",
+    "ru": "рано",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "kathe-pote",
+    "el": "κάθε πότε;",
+    "ru": "как часто?",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "poso-sychna",
+    "el": "πόσο συχνά;",
+    "ru": "как часто?",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-10-29"
+  },
+  {
+    "id": "kano-praktiki",
+    "el": "κάνω πρακτική",
+    "ru": "практиковать",
+    "pos": "phrase",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-08"
+  },
+  {
+    "id": "synolika",
+    "el": "συνολικά",
+    "ru": "всего",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-08"
+  },
+  {
+    "id": "atmosfaira",
+    "el": "η ατμόσφαιρα",
+    "ru": "атмосфера",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-08"
+  },
+  {
+    "id": "filoxenos",
+    "el": "φιλόξενος",
+    "ru": "дружелюбный, приветливый",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-08"
+  },
+  {
+    "id": "simaia",
+    "el": "η σημαία",
+    "ru": "флаг",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-08"
+  },
+  {
+    "id": "aspros",
+    "el": "άσπρος",
+    "ru": "белый",
+    "pos": "adj",
+    "tags": [
+      "цвета"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-08"
+  },
+  {
+    "id": "galanos",
+    "el": "γαλανός",
+    "ru": "голубой",
+    "pos": "adj",
+    "tags": [
+      "цвета"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-08"
+  },
+  {
+    "id": "seismos",
+    "el": "ο σεισμός",
+    "ru": "землетрясение",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-15"
+  },
+  {
+    "id": "proponisi",
+    "el": "η προπόνηση",
+    "ru": "тренировка",
+    "pos": "noun",
+    "tags": [
+      "спорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-15"
+  },
+  {
+    "id": "sidero",
+    "el": "το σίδερο",
+    "ru": "утюг",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-15"
+  },
+  {
+    "id": "ti-echeis",
+    "el": "τι έχεις;",
+    "ru": "что случилось?",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-15"
+  },
+  {
+    "id": "ti-symvainei",
+    "el": "τι συμβαίνει;",
+    "ru": "что случилось?",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-15"
+  },
+  {
+    "id": "ti-egine",
+    "el": "τι έγινε;",
+    "ru": "что случилось?",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-15"
+  },
+  {
+    "id": "polloi-anthropoi",
+    "el": "πολλοί άνθρωποι",
+    "ru": "многие люди",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-15"
+  },
+  {
+    "id": "dynatos",
+    "el": "δυνατός",
+    "ru": "сильный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-15"
+  },
+  {
+    "id": "eykolos",
+    "el": "εύκολος",
+    "ru": "лёгкий",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-15"
+  },
+  {
+    "id": "noris-to-proi",
+    "el": "νωρίς το πρωί",
+    "ru": "рано утром",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-15"
+  },
+  {
+    "id": "koyrasi",
+    "el": "η κούραση",
+    "ru": "усталость",
+    "pos": "noun",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-15"
+  },
+  {
+    "id": "doxa-to-theo",
+    "el": "δόξα τω Θεώ!",
+    "ru": "Слава Богу!",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "schedio",
+    "el": "το σχέδιο",
+    "ru": "план",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "schediazo",
+    "el": "σχεδιάζω",
+    "ru": "планировать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "σχεδίασα",
+      "future": "θα σχεδιάσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "poli",
+    "el": "η πόλη",
+    "ru": "город",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "amesos",
+    "el": "αμέσως",
+    "ru": "сразу",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "ayto",
+    "el": "αυτό",
+    "ru": "оно, это",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "foititria",
+    "el": "η φοιτήτρια",
+    "ru": "студентка",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "oikonomiki",
+    "el": "η οικονομική",
+    "ru": "экономика",
+    "pos": "noun",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "ton-teleytaio-kairo",
+    "el": "τον τελευταίο καιρό",
+    "ru": "в последнее время",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "polemos",
+    "el": "ο πόλεμος",
+    "ru": "война",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "ti-na-po",
+    "el": "τι να πω",
+    "ru": "что сказать",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "apla",
+    "el": "απλά",
+    "ru": "просто",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "aplos",
+    "el": "απλώς",
+    "ru": "просто",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "apotelesma",
+    "el": "το αποτέλεσμα",
+    "ru": "результат",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "na-doyme",
+    "el": "να δούμε",
+    "ru": "увидеть, посмотрим",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-22"
+  },
+  {
+    "id": "kopela",
+    "el": "η κοπέλα",
+    "ru": "девушка",
+    "pos": "noun",
+    "tags": [
+      "люди"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "nearos",
+    "el": "ο νεαρός",
+    "ru": "парень",
+    "pos": "noun",
+    "tags": [
+      "люди"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "chazeyo",
+    "el": "χαζεύω",
+    "ru": "глазеть, зевать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "χάζεψα",
+      "future": "θα χαζέψω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "tainia",
+    "el": "η ταινία",
+    "ru": "фильм",
+    "pos": "noun",
+    "tags": [
+      "хобби"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "eidisi",
+    "el": "η είδηση",
+    "ru": "новость",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "deyteros",
+    "el": "δεύτερος",
+    "ru": "второй",
+    "pos": "other",
+    "tags": [
+      "числа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "ti-deyteri-mera",
+    "el": "τη δεύτερη μέρα",
+    "ru": "на второй день",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "exetasi",
+    "el": "η εξέταση",
+    "ru": "экзамен, обследование (у врача)",
+    "pos": "noun",
+    "tags": [
+      "здоровье",
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "vre",
+    "el": "βρε",
+    "ru": "дорогой (при обращении)",
+    "pos": "other",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "poso-kairo",
+    "el": "πόσο καιρό;",
+    "ru": "сколько времени?",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "poso-chrono",
+    "el": "πόσο χρόνο;",
+    "ru": "сколько времени?",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "kano-parea",
+    "el": "κάνω παρέα",
+    "ru": "дружить",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "edo-kai-2-chronia",
+    "el": "εδώ και 2 χρόνια",
+    "ru": "уже как 2 года, в течение 2-х лет",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-11-26"
+  },
+  {
+    "id": "kano-exetasi",
+    "el": "κάνω εξέταση",
+    "ru": "делать обследование, сдавать экзамен",
+    "pos": "phrase",
+    "tags": [
+      "здоровье",
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-10"
+  },
+  {
+    "id": "gnomi",
+    "el": "η γνώμη",
+    "ru": "мнение",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-10"
+  },
+  {
+    "id": "merika-pragmata",
+    "el": "μερικά πράγματα",
+    "ru": "некоторые вещи",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-10"
+  },
+  {
+    "id": "ponokefalos",
+    "el": "ο πονοκέφαλος",
+    "ru": "головная боль",
+    "pos": "noun",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-10"
+  },
+  {
+    "id": "christoygenna",
+    "el": "τα Χριστούγεννα",
+    "ru": "Рождество",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "protochronia",
+    "el": "η Πρωτοχρονιά",
+    "ru": "Новый год (праздник)",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "ai-vasilis",
+    "el": "ο Αϊ-Βασίλης",
+    "ru": "Дед Мороз",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "kainoyrgios-chronos",
+    "el": "ο καινούργιος χρόνος",
+    "ru": "новый год",
+    "pos": "noun",
+    "tags": [
+      "праздники",
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "giorti",
+    "el": "η γιορτή",
+    "ru": "праздник",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "kalanta",
+    "el": "τα κάλαντα",
+    "ru": "колядки",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "doro",
+    "el": "το δώρο",
+    "ru": "подарок",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "christoygenniatiko-dentro",
+    "el": "το χριστουγεννιάτικο δέντρο",
+    "ru": "рождественское дерево",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "elato",
+    "el": "το έλατο",
+    "ru": "ёлка",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "stolizo",
+    "el": "στολίζω",
+    "ru": "украшать, наряжать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "στόλισα",
+      "future": "θα στολίσω"
+    },
+    "conj": "A",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "stolidi",
+    "el": "το στολίδι",
+    "ru": "украшение",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "keri",
+    "el": "το κερί",
+    "ru": "свеча",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "girlanta",
+    "el": "η γιρλάντα",
+    "ru": "гирлянда",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "christoygenniatiki-kaltsa",
+    "el": "η χριστουγεννιάτικη κάλτσα",
+    "ru": "рождественский носок",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "christoygenniatiko-stefani",
+    "el": "το χριστουγεννιάτικο στεφάνι",
+    "ru": "рождественский венок",
+    "pos": "noun",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-20"
+  },
+  {
+    "id": "ekklisia",
+    "el": "η εκκλησία",
+    "ru": "церковь",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-24"
+  },
+  {
+    "id": "ti-ginetai",
+    "el": "τι γίνεται;",
+    "ru": "что происходит? что случается?",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-24"
+  },
+  {
+    "id": "laiki",
+    "el": "η λαϊκή",
+    "ru": "базар (народный)",
+    "pos": "noun",
+    "tags": [
+      "город",
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-24"
+  },
+  {
+    "id": "ame",
+    "el": "αμέ!",
+    "ru": "ну да! конечно!",
+    "pos": "other",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-24"
+  },
+  {
+    "id": "egine",
+    "el": "έγινε!",
+    "ru": "договорились!",
+    "pos": "other",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-24"
+  },
+  {
+    "id": "filaki",
+    "el": "το φιλάκι",
+    "ru": "поцелуй, поцелуйчик",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2025-12-24"
+  },
+  {
+    "id": "exoteriki-emfanisi",
+    "el": "η εξωτερική εμφάνιση",
+    "ru": "внешний вид",
+    "pos": "noun",
+    "tags": [
+      "люди"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "ekfrastika-matia",
+    "el": "τα εκφραστικά μάτια",
+    "ru": "выразительные глаза",
+    "pos": "phrase",
+    "tags": [
+      "люди"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "xanthia-mallia",
+    "el": "τα ξανθιά μαλλιά",
+    "ru": "светлые волосы",
+    "pos": "phrase",
+    "tags": [
+      "люди"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "melachrina-mallia",
+    "el": "τα μελαχρινά μαλλιά",
+    "ru": "тёмные волосы",
+    "pos": "phrase",
+    "tags": [
+      "люди"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "charoymenos",
+    "el": "χαρούμενος",
+    "ru": "радостный",
+    "pos": "adj",
+    "tags": [
+      "чувства"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "lypimenos",
+    "el": "λυπημένος",
+    "ru": "грустный, печальный",
+    "pos": "adj",
+    "tags": [
+      "чувства"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "chamogelastos",
+    "el": "χαμογελαστός",
+    "ru": "улыбчивый",
+    "pos": "adj",
+    "tags": [
+      "чувства"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "prosektikos",
+    "el": "προσεκτικός",
+    "ru": "внимательный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "sygkentromenos",
+    "el": "συγκεντρωμένος",
+    "ru": "сосредоточенный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "stenochorimenos",
+    "el": "στενοχωρημένος",
+    "ru": "взволнованный, расстроенный",
+    "pos": "adj",
+    "tags": [
+      "чувства"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "iremos",
+    "el": "ήρεμος",
+    "ru": "спокойный",
+    "pos": "adj",
+    "tags": [
+      "чувства"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "foro",
+    "el": "φορώ",
+    "ru": "носить",
+    "pos": "verb",
+    "forms": {
+      "aorist": "φόρεσα",
+      "future": "θα φορέσω"
+    },
+    "conj": "B2",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "me-goysto",
+    "el": "με γούστο",
+    "ru": "со вкусом",
+    "pos": "phrase",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "skoyra-roycha",
+    "el": "τα σκούρα ρούχα",
+    "ru": "тёмная одежда",
+    "pos": "phrase",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "anoichtochroma-roycha",
+    "el": "τα ανοιχτόχρωμα ρούχα",
+    "ru": "светлая одежда",
+    "pos": "phrase",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "agchos",
+    "el": "το άγχος",
+    "ru": "стресс",
+    "pos": "noun",
+    "tags": [
+      "чувства"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "lypi",
+    "el": "η λύπη",
+    "ru": "горе",
+    "pos": "noun",
+    "tags": [
+      "чувства"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "chara",
+    "el": "η χαρά",
+    "ru": "радость",
+    "pos": "noun",
+    "tags": [
+      "чувства"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "fovos",
+    "el": "ο φόβος",
+    "ru": "страх",
+    "pos": "noun",
+    "tags": [
+      "чувства"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "oso-gia-mena",
+    "el": "όσο για μένα",
+    "ru": "что касается меня",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-15"
+  },
+  {
+    "id": "skoypidia",
+    "el": "τα σκουπίδια",
+    "ru": "мусор",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-17"
+  },
+  {
+    "id": "fysi",
+    "el": "η φύση",
+    "ru": "природа",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-17"
+  },
+  {
+    "id": "topos",
+    "el": "ο τόπος",
+    "ru": "место (местность)",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-17"
+  },
+  {
+    "id": "pes-moy-parakalo",
+    "el": "πες μου παρακαλώ",
+    "ru": "скажи мне, пожалуйста",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-21"
+  },
+  {
+    "id": "enesi",
+    "el": "η ένεση",
+    "ru": "укол",
+    "pos": "noun",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-21"
+  },
+  {
+    "id": "ayto-poy",
+    "el": "αυτό που",
+    "ru": "то, что",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-21"
+  },
+  {
+    "id": "cheirotero",
+    "el": "χειρότερο",
+    "ru": "хуже",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-21"
+  },
+  {
+    "id": "erotisi",
+    "el": "η ερώτηση",
+    "ru": "вопрос",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-21"
+  },
+  {
+    "id": "thea",
+    "el": "η θέα",
+    "ru": "вид (наружу)",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-21"
+  },
+  {
+    "id": "polykatoikia",
+    "el": "η πολυκατοικία",
+    "ru": "многоэтажка",
+    "pos": "noun",
+    "tags": [
+      "дом",
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-21"
+  },
+  {
+    "id": "aggelia",
+    "el": "η αγγελία",
+    "ru": "объявление",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-28"
+  },
+  {
+    "id": "psila",
+    "el": "τα ψιλά",
+    "ru": "мелочь",
+    "pos": "noun",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-28"
+  },
+  {
+    "id": "resta",
+    "el": "τα ρέστα",
+    "ru": "сдача",
+    "pos": "noun",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-28"
+  },
+  {
+    "id": "oriste",
+    "el": "ορίστε",
+    "ru": "пожалуйста (когда вам дают)",
+    "pos": "other",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-01-28"
+  },
+  {
+    "id": "kapoia",
+    "el": "κάποια",
+    "ru": "некоторые",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "ladi",
+    "el": "το λάδι",
+    "ru": "масло",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "anapsyktiko",
+    "el": "το αναψυκτικό",
+    "ru": "безалкогольный напиток",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "allantiko",
+    "el": "το αλλαντικό",
+    "ru": "ассорти (колбасные изделия)",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "proion",
+    "el": "το προϊόν",
+    "ru": "продукты",
+    "pos": "noun",
+    "tags": [
+      "покупки"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "mpachariko",
+    "el": "το μπαχαρικό",
+    "ru": "специи",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "aporrypantiko",
+    "el": "το απορρυπαντικό",
+    "ru": "моющие средства",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "ygro",
+    "el": "το υγρό",
+    "ru": "жидкость",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "piata",
+    "el": "τα πιάτα",
+    "ru": "посуда",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "ygro-gia-na-plenoyme-ta-piata",
+    "el": "υγρό για να πλένουμε τα πιάτα",
+    "ru": "жидкость для мытья посуды",
+    "pos": "phrase",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "sampoyan",
+    "el": "το σαμπουάν",
+    "ru": "шампунь",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "sapoyni",
+    "el": "το σαπούνι",
+    "ru": "мыло",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "manaviko",
+    "el": "το μανάβικο",
+    "ru": "овощной магазин",
+    "pos": "noun",
+    "tags": [
+      "покупки",
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "viologikos",
+    "el": "βιολογικός",
+    "ru": "биологический",
+    "pos": "adj",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "diatrofi",
+    "el": "η διατροφή",
+    "ru": "питание, диета",
+    "pos": "noun",
+    "tags": [
+      "еда",
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "fraoyla",
+    "el": "η φράουλα",
+    "ru": "клубника",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "rodakino",
+    "el": "το ροδάκινο",
+    "ru": "персики",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "verikoko",
+    "el": "το βερίκοκο",
+    "ru": "абрикосы",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "kremmydi",
+    "el": "το κρεμμύδι",
+    "ru": "лук",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "pantzari",
+    "el": "το παντζάρι",
+    "ru": "свекла",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-09"
+  },
+  {
+    "id": "tilefonima",
+    "el": "το τηλεφώνημα",
+    "ru": "звонок",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-21"
+  },
+  {
+    "id": "opoiosdipote",
+    "el": "οποιοσδήποτε",
+    "ru": "любой",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-21"
+  },
+  {
+    "id": "fagopyro",
+    "el": "το φαγόπυρο",
+    "ru": "гречка",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-25"
+  },
+  {
+    "id": "zymariko",
+    "el": "το ζυμαρικό",
+    "ru": "макаронные изделия, макароны",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-25"
+  },
+  {
+    "id": "iliosporos",
+    "el": "ο ηλιόσπορος",
+    "ru": "семечки подсолнечника",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-25"
+  },
+  {
+    "id": "oson-afora",
+    "el": "όσον αφορά",
+    "ru": "в отношении",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-25"
+  },
+  {
+    "id": "fanela",
+    "el": "η φανέλα",
+    "ru": "футболка, майка",
+    "pos": "noun",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-25"
+  },
+  {
+    "id": "sortsaki",
+    "el": "το σορτσάκι",
+    "ru": "шорты",
+    "pos": "noun",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-25"
+  },
+  {
+    "id": "choriatikos",
+    "el": "χωριάτικος",
+    "ru": "деревенский",
+    "pos": "adj",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-02-26"
+  },
+  {
+    "id": "enikos",
+    "el": "ο ενικός",
+    "ru": "единственное число",
+    "pos": "noun",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-02"
+  },
+  {
+    "id": "plithyntikos",
+    "el": "ο πληθυντικός",
+    "ru": "множественное число",
+    "pos": "noun",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-02"
+  },
+  {
+    "id": "rima",
+    "el": "το ρήμα",
+    "ru": "глагол",
+    "pos": "noun",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-02"
+  },
+  {
+    "id": "prosopo",
+    "el": "το πρόσωπο",
+    "ru": "лицо",
+    "pos": "noun",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-02"
+  },
+  {
+    "id": "dachtylidi",
+    "el": "το δαχτυλίδι",
+    "ru": "кольцо",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-04"
+  },
+  {
+    "id": "asimenio-dachtylidi",
+    "el": "το ασημένιο δαχτυλίδι",
+    "ru": "серебряное кольцо",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-04"
+  },
+  {
+    "id": "ntyno",
+    "el": "ντύνω",
+    "ru": "одевать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "έντυσα",
+      "future": "θα ντύσω"
+    },
+    "conj": "A",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-04"
+  },
+  {
+    "id": "pleko",
+    "el": "πλέκω",
+    "ru": "вязать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "έπλεξα",
+      "future": "θα πλέξω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-04"
+  },
+  {
+    "id": "vafo",
+    "el": "βάφω",
+    "ru": "красить",
+    "pos": "verb",
+    "forms": {
+      "aorist": "έβαψα",
+      "future": "θα βάψω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-04"
+  },
+  {
+    "id": "anakalypto",
+    "el": "ανακαλύπτω",
+    "ru": "обнаруживать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "ανακάλυψα",
+      "future": "θα ανακαλύψω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-04"
+  },
+  {
+    "id": "xantha-mallia",
+    "el": "τα ξανθά μαλλιά",
+    "ru": "светлые волосы",
+    "pos": "noun",
+    "tags": [
+      "внешность"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "tin-teleytaia-fora",
+    "el": "την τελευταία φορά",
+    "ru": "в последний раз",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "skoypizo",
+    "el": "σκουπίζω",
+    "ru": "подметать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "σκούπισα",
+      "future": "θα σκουπίσω"
+    },
+    "conj": "A",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "patoma",
+    "el": "το πάτωμα",
+    "ru": "пол",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "aerizo",
+    "el": "αερίζω",
+    "ru": "проветривать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "αέρισα",
+      "future": "θα αερίσω"
+    },
+    "conj": "A",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "synachi",
+    "el": "το συνάχι",
+    "ru": "насморк, сопли",
+    "pos": "noun",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "myti-trechei",
+    "el": "η μύτη τρέχει",
+    "ru": "нос бежит",
+    "pos": "phrase",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "vrechei",
+    "el": "βρέχει",
+    "ru": "идёт дождь",
+    "pos": "phrase",
+    "tags": [
+      "погода"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "me-syndesi",
+    "el": "με σύνδεση",
+    "ru": "со связью",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "xero-go",
+    "el": "ξέρω 'γω;",
+    "ru": "откуда я знаю?",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "sygkekrimenos",
+    "el": "συγκεκριμένος",
+    "ru": "определённый",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "metrita",
+    "el": "τα μετρητά",
+    "ru": "наличные (кэш)",
+    "pos": "noun",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "taytotita",
+    "el": "η ταυτότητα",
+    "ru": "удостоверение личности",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "diavatirio",
+    "el": "το διαβατήριο",
+    "ru": "паспорт",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "ypografi",
+    "el": "η υπογραφή",
+    "ru": "подпись",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "apodeixi",
+    "el": "η απόδειξη",
+    "ru": "чек",
+    "pos": "noun",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "eggyisi",
+    "el": "η εγγύηση",
+    "ru": "гарантия",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-07"
+  },
+  {
+    "id": "deltio-kairoy",
+    "el": "το δελτίο καιρού",
+    "ru": "прогноз погоды",
+    "pos": "noun",
+    "tags": [
+      "погода"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-12"
+  },
+  {
+    "id": "skini",
+    "el": "η σκηνή",
+    "ru": "палатка, сцена",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-12"
+  },
+  {
+    "id": "limni",
+    "el": "η λίμνη",
+    "ru": "озеро",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-12"
+  },
+  {
+    "id": "vrastos",
+    "el": "βραστός",
+    "ru": "варёный",
+    "pos": "adj",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "vrazo",
+    "el": "βράζω",
+    "ru": "варить",
+    "pos": "verb",
+    "forms": {
+      "aorist": "έβρασα",
+      "future": "θα βράσω"
+    },
+    "conj": "A",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "fysika",
+    "el": "φυσικά",
+    "ru": "естественно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "choris",
+    "el": "χωρίς",
+    "ru": "без",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "karydi",
+    "el": "το καρύδι",
+    "ru": "орехи",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "meli",
+    "el": "το μέλι",
+    "ru": "мёд",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "vromi",
+    "el": "η βρώμη",
+    "ru": "овсяные хлопья",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "poytigka",
+    "el": "η πουτίγκα",
+    "ru": "пудинг",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "eidos",
+    "el": "το είδος",
+    "ru": "разновидность",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "tyri",
+    "el": "το τυρί",
+    "ru": "сыр",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "periecho",
+    "el": "περιέχω",
+    "ru": "содержать",
+    "pos": "verb",
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "sofos",
+    "el": "σοφός",
+    "ru": "мудрый",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "ypallilos",
+    "el": "ο υπάλληλος",
+    "ru": "служащий",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "misthos",
+    "el": "ο μισθός",
+    "ru": "зарплата",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "dynatotita",
+    "el": "η δυνατότητα",
+    "ru": "возможность",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "kano-perilipsi",
+    "el": "κάνω περίληψη",
+    "ru": "пересказывать, делать краткое изложение",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "peste-moy-parakalo",
+    "el": "πέστε μου παρακαλώ",
+    "ru": "скажите мне, пожалуйста",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-18"
+  },
+  {
+    "id": "arketa",
+    "el": "αρκετά",
+    "ru": "достаточно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-20"
+  },
+  {
+    "id": "chrimata",
+    "el": "τα χρήματα",
+    "ru": "деньги",
+    "pos": "noun",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-20"
+  },
+  {
+    "id": "pelatis",
+    "el": "ο πελάτης",
+    "ru": "клиент",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-20"
+  },
+  {
+    "id": "episkeptis",
+    "el": "ο επισκέπτης",
+    "ru": "посетитель",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-25"
+  },
+  {
+    "id": "pisina",
+    "el": "η πισίνα",
+    "ru": "бассейн",
+    "pos": "noun",
+    "tags": [
+      "спорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-25"
+  },
+  {
+    "id": "kolymvitis",
+    "el": "ο κολυμβητής",
+    "ru": "плавец",
+    "pos": "noun",
+    "tags": [
+      "спорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-25"
+  },
+  {
+    "id": "kolymvisi",
+    "el": "η κολύμβηση",
+    "ru": "плавание",
+    "pos": "noun",
+    "tags": [
+      "спорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-25"
+  },
+  {
+    "id": "magio",
+    "el": "το μαγιό",
+    "ru": "купальник, плавки",
+    "pos": "noun",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-03-25"
+  },
+  {
+    "id": "vrecho",
+    "el": "βρέχω",
+    "ru": "идти (о дожде), мочить",
+    "pos": "verb",
+    "forms": {
+      "aorist": "έβρεξα",
+      "future": "θα βρέξω"
+    },
+    "conj": "A",
+    "tags": [
+      "погода"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-04-08"
+  },
+  {
+    "id": "vregmenos",
+    "el": "βρεγμένος",
+    "ru": "мокрый, намокший",
+    "pos": "adj",
+    "tags": [
+      "погода"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-04-08"
+  },
+  {
+    "id": "diadiktyo",
+    "el": "το διαδίκτυο",
+    "ru": "интернет",
+    "pos": "noun",
+    "tags": [
+      "технологии"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-04-08"
+  },
+  {
+    "id": "techniti-noimosyni",
+    "el": "η τεχνητή νοημοσύνη",
+    "ru": "искусственный интеллект",
+    "pos": "noun",
+    "tags": [
+      "технологии"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-04-08"
+  },
+  {
+    "id": "paroysiazo",
+    "el": "παρουσιάζω",
+    "ru": "представлять",
+    "pos": "verb",
+    "forms": {
+      "aorist": "παρουσίασα",
+      "future": "θα παρουσιάσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-04-22"
+  },
+  {
+    "id": "athlitiko-kentro",
+    "el": "το αθλητικό κέντρο",
+    "ru": "спортивный центр",
+    "pos": "noun",
+    "tags": [
+      "спорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-05-28"
+  },
+  {
+    "id": "podosfairo",
+    "el": "το ποδόσφαιρο",
+    "ru": "футбол",
+    "pos": "noun",
+    "tags": [
+      "спорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-05-28"
+  },
+  {
+    "id": "tenis",
+    "el": "το τένις",
+    "ru": "теннис",
+    "pos": "noun",
+    "tags": [
+      "спорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-05-28"
+  },
+  {
+    "id": "athlima",
+    "el": "το άθλημα",
+    "ru": "вид спорта, спорт",
+    "pos": "noun",
+    "tags": [
+      "спорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-05-28"
+  },
+  {
+    "id": "minyma",
+    "el": "το μήνυμα",
+    "ru": "сообщение",
+    "pos": "noun",
+    "tags": [
+      "технологии"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-17"
+  },
+  {
+    "id": "istoselida",
+    "el": "η ιστοσελίδα",
+    "ru": "веб-сайт",
+    "pos": "noun",
+    "tags": [
+      "технологии"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-17"
+  },
+  {
+    "id": "stili",
+    "el": "η στήλη",
+    "ru": "колонка, столбец, стела",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-17"
+  },
+  {
+    "id": "diavasma",
+    "el": "το διάβασμα",
+    "ru": "чтение, учёба",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-17"
+  },
+  {
+    "id": "mageiriki",
+    "el": "η μαγειρική",
+    "ru": "кулинария, поварское искусство",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-17"
+  },
+  {
+    "id": "parakato",
+    "el": "παρακάτω",
+    "ru": "ниже (по тексту), дальше (по тексту или дороге)",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-17"
+  },
+  {
+    "id": "simeiono",
+    "el": "σημειώνω",
+    "ru": "записывать, отмечать, делать заметку",
+    "pos": "verb",
+    "forms": {
+      "aorist": "σημείωσα",
+      "future": "θα σημειώσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-17"
+  },
+  {
+    "id": "tairiazo",
+    "el": "ταιριάζω",
+    "ru": "подходить, сочетаться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "ταίριαξα",
+      "future": "θα ταιριάξω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-17"
+  },
+  {
+    "id": "dialego",
+    "el": "διαλέγω",
+    "ru": "выбирать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "διάλεξα",
+      "future": "θα διαλέξω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-17"
+  },
+  {
+    "id": "chorismenos",
+    "el": "χωρισμένος",
+    "ru": "разведённый",
+    "pos": "adj",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "spoydaios",
+    "el": "σπουδαίος",
+    "ru": "важный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "simantikos",
+    "el": "σημαντικός",
+    "ru": "значительный, важный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "enochlitikos",
+    "el": "ενοχλητικός",
+    "ru": "раздражающий",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "filikos",
+    "el": "φιλικός",
+    "ru": "дружелюбный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "as",
+    "el": "ας",
+    "ru": "пусть",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "omos",
+    "el": "όμως",
+    "ru": "однако",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "pantoy",
+    "el": "παντού",
+    "ru": "везде, повсюду",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "moro",
+    "el": "το μωρό",
+    "ru": "малыш",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "eggonos",
+    "el": "ο εγγονός",
+    "ru": "внук",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "eggoni",
+    "el": "η εγγονή",
+    "ru": "внучка",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "anipsios",
+    "el": "ο ανιψιός",
+    "ru": "племянник",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "anipsia",
+    "el": "η ανιψιά",
+    "ru": "племянница",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "meros",
+    "el": "το μέρος",
+    "ru": "место",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "katanoisi",
+    "el": "η κατανόηση",
+    "ru": "понимание",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "enochlo",
+    "el": "ενοχλώ",
+    "ru": "беспокоить",
+    "pos": "verb",
+    "forms": {
+      "aorist": "ενόχλησα",
+      "future": "θα ενοχλήσω"
+    },
+    "conj": "B2",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "latreyo",
+    "el": "λατρεύω",
+    "ru": "обожать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "λάτρεψα",
+      "future": "θα λατρέψω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "kathenas",
+    "el": "ο καθένας",
+    "ru": "каждый",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-07-30"
+  },
+  {
+    "id": "exereyno",
+    "el": "εξερευνώ",
+    "ru": "исследовать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "εξερεύνησα",
+      "future": "θα εξερευνήσω"
+    },
+    "conj": "B2",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "schimatizomai",
+    "el": "σχηματίζομαι",
+    "ru": "образовываться, формироваться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "σχηματίστηκα",
+      "future": "θα σχηματιστώ"
+    },
+    "conj": "-ομαι",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "xaplono",
+    "el": "ξαπλώνω",
+    "ru": "лежать, ложиться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "ξάπλωσα",
+      "future": "θα ξαπλώσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "anthizo",
+    "el": "ανθίζω",
+    "ru": "расцветать, цвести",
+    "pos": "verb",
+    "forms": {
+      "aorist": "άνθισα",
+      "future": "θα ανθίσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "kathizo",
+    "el": "καθίζω",
+    "ru": "усаживать, садиться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "κάθισα",
+      "future": "θα καθίσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "prostheto",
+    "el": "προσθέτω",
+    "ru": "добавлять",
+    "pos": "verb",
+    "forms": {
+      "aorist": "πρόσθεσα",
+      "future": "θα προσθέσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "xylinos",
+    "el": "ξύλινος",
+    "ru": "деревянный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "droseros",
+    "el": "δροσερός",
+    "ru": "прохладный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "diathesimos",
+    "el": "διαθέσιμος",
+    "ru": "доступный, свободный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "skliros",
+    "el": "σκληρός",
+    "ru": "жёсткий",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "aggelikos",
+    "el": "αγγελικός",
+    "ru": "ангельский",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "lamperos",
+    "el": "λαμπερός",
+    "ru": "сияющий",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "dasos",
+    "el": "το δάσος",
+    "ru": "лес",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "aeras",
+    "el": "ο αέρας",
+    "ru": "воздух, ветер",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "poyli",
+    "el": "το πουλί",
+    "ru": "птица",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "paramythi",
+    "el": "το παραμύθι",
+    "ru": "сказка",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "sakidio",
+    "el": "το σακίδιο",
+    "ru": "рюкзак",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "ekdromi",
+    "el": "η εκδρομή",
+    "ru": "экскурсия",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "monopati",
+    "el": "το μονοπάτι",
+    "ru": "тропинка",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "katarraktis",
+    "el": "ο καταρράκτης",
+    "ru": "водопад",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "kerasi",
+    "el": "το κεράσι",
+    "ru": "вишня",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "skia",
+    "el": "η σκιά",
+    "ru": "тень",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "synnefo",
+    "el": "το σύννεφο",
+    "ru": "облако",
+    "pos": "noun",
+    "tags": [
+      "погода"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "grasidi",
+    "el": "το γρασίδι",
+    "ru": "трава",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "diskos",
+    "el": "ο δίσκος",
+    "ru": "диск",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "synergeio",
+    "el": "το συνεργείο",
+    "ru": "автомастерская",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "synaylia",
+    "el": "η συναυλία",
+    "ru": "концерт",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "periodiko",
+    "el": "το περιοδικό",
+    "ru": "журнал",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "seira",
+    "el": "η σειρά",
+    "ru": "ряд, очередь, серия",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "peripeteia",
+    "el": "η περιπέτεια",
+    "ru": "приключение",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "anamnisi",
+    "el": "η ανάμνηση",
+    "ru": "воспоминание",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "mnimi",
+    "el": "η μνήμη",
+    "ru": "память, воспоминание",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "kardia",
+    "el": "η καρδιά",
+    "ru": "сердце",
+    "pos": "noun",
+    "tags": [
+      "тело"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "san",
+    "el": "σαν",
+    "ru": "как",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "vgazo-fotografies",
+    "el": "βγάζω φωτογραφίες",
+    "ru": "фотографировать",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-03"
+  },
+  {
+    "id": "gipedo",
+    "el": "το γήπεδο",
+    "ru": "стадион, корт, спортплощадка",
+    "pos": "noun",
+    "tags": [
+      "спорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "gkaraz",
+    "el": "το γκαράζ",
+    "ru": "гараж",
+    "pos": "noun",
+    "tags": [
+      "транспорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "lathos",
+    "el": "το λάθος",
+    "ru": "ошибка",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "katastasi",
+    "el": "η κατάσταση",
+    "ru": "ситуация",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "synitheia",
+    "el": "η συνήθεια",
+    "ru": "обычай, привычка",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "praxi",
+    "el": "η πράξη",
+    "ru": "действие, практика",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "prosektika",
+    "el": "προσεκτικά",
+    "ru": "осторожно, внимательно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "monima",
+    "el": "μόνιμα",
+    "ru": "постоянно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "kaneis",
+    "el": "κανείς",
+    "ru": "никто",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "opoios",
+    "el": "ο οποίος",
+    "ru": "который",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "kapoios",
+    "el": "κάποιος",
+    "ru": "кто-то",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "synithismenos",
+    "el": "συνηθισμένος",
+    "ru": "обычный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-10"
+  },
+  {
+    "id": "chali",
+    "el": "το χαλί",
+    "ru": "ковёр",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "maxilari",
+    "el": "το μαξιλάρι",
+    "ru": "подушка",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "koyverta",
+    "el": "η κουβέρτα",
+    "ru": "плед",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "sentoni",
+    "el": "το σεντόνι",
+    "ru": "простыня",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "trapezomantilo",
+    "el": "το τραπεζομάντιλο",
+    "ru": "скатерть",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "koyrtina",
+    "el": "η κουρτίνα",
+    "ru": "штора",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "piroyni-2",
+    "el": "το πιρούνι",
+    "ru": "вилка",
+    "pos": "noun",
+    "tags": [
+      "дом",
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "tapsi",
+    "el": "το ταψί",
+    "ru": "противень",
+    "pos": "noun",
+    "tags": [
+      "дом",
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "tigani",
+    "el": "το τηγάνι",
+    "ru": "сковорода",
+    "pos": "noun",
+    "tags": [
+      "дом",
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "katsarola",
+    "el": "η κατσαρόλα",
+    "ru": "кастрюля",
+    "pos": "noun",
+    "tags": [
+      "дом",
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "ilektriki-syskeyi",
+    "el": "η ηλεκτρική συσκευή",
+    "ru": "электрический прибор",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "tzaki",
+    "el": "το τζάκι",
+    "ru": "камин",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "mpaniera",
+    "el": "η μπανιέρα",
+    "ru": "ванна (в которой лежат)",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "polythrona",
+    "el": "η πολυθρόνα",
+    "ru": "кресло",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "paploma",
+    "el": "το πάπλωμα",
+    "ru": "одеяло",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "papoytsia",
+    "el": "τα παπούτσια",
+    "ru": "обувь",
+    "pos": "noun",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-24"
+  },
+  {
+    "id": "enarmonizomai",
+    "el": "εναρμονίζομαι",
+    "ru": "гармонировать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "εναρμονίστηκα",
+      "future": "θα εναρμονιστώ"
+    },
+    "conj": "-ομαι",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-08-27"
+  },
+  {
+    "id": "tetragonika-metra",
+    "el": "τα τετραγωνικά μέτρα",
+    "ru": "квадратные метры",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "monokatoikia",
+    "el": "η μονοκατοικία",
+    "ru": "частный дом",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "theos",
+    "el": "ο θεός",
+    "ru": "бог",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "thermansi",
+    "el": "η θέρμανση",
+    "ru": "отопление",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "asanser",
+    "el": "το ασανσέρ",
+    "ru": "лифт",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "limani",
+    "el": "το λιμάνι",
+    "ru": "порт",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "fysiko-aerio",
+    "el": "το φυσικό αέριο",
+    "ru": "природный газ",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "isogeio",
+    "el": "το ισόγειο",
+    "ru": "нулевой этаж (ground floor)",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "eykairia",
+    "el": "η ευκαιρία",
+    "ru": "возможность, шанс",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "tachydromeio",
+    "el": "το ταχυδρομείο",
+    "ru": "почта",
+    "pos": "noun",
+    "tags": [
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "chrima",
+    "el": "το χρήμα",
+    "ru": "монета, деньга",
+    "pos": "noun",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "geyma",
+    "el": "το γεύμα",
+    "ru": "приём пищи",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "stoma",
+    "el": "το στόμα",
+    "ru": "рот",
+    "pos": "noun",
+    "tags": [
+      "тело"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "paradeigma",
+    "el": "το παράδειγμα",
+    "ru": "пример",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "efivos",
+    "el": "ο έφηβος",
+    "ru": "подросток",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "valitsa",
+    "el": "η βαλίτσα",
+    "ru": "чемодан",
+    "pos": "noun",
+    "tags": [
+      "путешествия"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "arithmos",
+    "el": "ο αριθμός",
+    "ru": "число",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "moda",
+    "el": "η μόδα",
+    "ru": "мода",
+    "pos": "noun",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "mpala",
+    "el": "η μπάλα",
+    "ru": "мяч",
+    "pos": "noun",
+    "tags": [
+      "спорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "volei",
+    "el": "το βόλεϊ",
+    "ru": "волейбол",
+    "pos": "noun",
+    "tags": [
+      "спорт"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "mama",
+    "el": "η μαμά",
+    "ru": "мама",
+    "pos": "noun",
+    "tags": [
+      "семья"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "diagonisma",
+    "el": "το διαγώνισμα",
+    "ru": "экзамен, контрольная работа",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "epipedo",
+    "el": "το επίπεδο",
+    "ru": "уровень",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "oysiastiko",
+    "el": "το ουσιαστικό",
+    "ru": "существительное (в смысле грамматики), содержание (смысловое)",
+    "pos": "noun",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "arthro",
+    "el": "το άρθρο",
+    "ru": "статья, артикль",
+    "pos": "noun",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "kalesmenos",
+    "el": "ο καλεσμένος",
+    "ru": "гость",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "epanalipsi",
+    "el": "η επανάληψη",
+    "ru": "повторение",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "grammatiki",
+    "el": "η γραμματική",
+    "ru": "грамматика",
+    "pos": "noun",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "eytychia",
+    "el": "η ευτυχία",
+    "ru": "счастье",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "psema",
+    "el": "το ψέμα",
+    "ru": "ложь",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "dialeimma",
+    "el": "το διάλειμμα",
+    "ru": "перерыв",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "xechorista",
+    "el": "ξεχωριστά",
+    "ru": "отдельно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "perastika",
+    "el": "περαστικά!",
+    "ru": "поправляйся скорее!",
+    "pos": "phrase",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "exoterikos",
+    "el": "εξωτερικός",
+    "ru": "внешний",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "vromikos",
+    "el": "βρώμικος",
+    "ru": "грязный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "axechastos",
+    "el": "αξέχαστος",
+    "ru": "незабываемый",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "prin-apo",
+    "el": "πριν από",
+    "ru": "до, перед",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-03"
+  },
+  {
+    "id": "stin-ora-toys",
+    "el": "στην ώρα τους",
+    "ru": "вовремя",
+    "pos": "phrase",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "leo-na",
+    "el": "λέω να",
+    "ru": "собираюсь, планирую",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "logariasmos",
+    "el": "ο λογαριασμός",
+    "ru": "счёт",
+    "pos": "noun",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "laiki-agora",
+    "el": "η λαϊκή αγορά",
+    "ru": "уличный рынок",
+    "pos": "noun",
+    "tags": [
+      "город",
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "anagki",
+    "el": "η ανάγκη",
+    "ru": "нужда, потребность",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "diakosmisi",
+    "el": "η διακόσμηση",
+    "ru": "украшение, декор",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "tropos",
+    "el": "ο τρόπος",
+    "ru": "способ",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "kommati",
+    "el": "το κομμάτι",
+    "ru": "кусок",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "empeiria",
+    "el": "η εμπειρία",
+    "ru": "опыт",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "lysi",
+    "el": "η λύση",
+    "ru": "решение",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "asteio",
+    "el": "το αστείο",
+    "ru": "шутка",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "xypnitiri",
+    "el": "το ξυπνητήρι",
+    "ru": "будильник",
+    "pos": "noun",
+    "tags": [
+      "дом"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "eno",
+    "el": "ενώ",
+    "ru": "пока (пока читаю)",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "axizo",
+    "el": "αξίζω",
+    "ru": "заслуживать, стоить",
+    "pos": "verb",
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "lyno",
+    "el": "λύνω",
+    "ru": "решать (задачу)",
+    "pos": "verb",
+    "forms": {
+      "aorist": "έλυσα",
+      "future": "θα λύσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-21"
+  },
+  {
+    "id": "chtenizomai",
+    "el": "χτενίζομαι",
+    "ru": "расчёсываться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "χτενίστηκα",
+      "future": "θα χτενιστώ"
+    },
+    "conj": "-ομαι",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-25"
+  },
+  {
+    "id": "xyrizomai",
+    "el": "ξυρίζομαι",
+    "ru": "бриться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "ξυρίστηκα",
+      "future": "θα ξυριστώ"
+    },
+    "conj": "-ομαι",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-25"
+  },
+  {
+    "id": "koyreyomai",
+    "el": "κουρεύομαι",
+    "ru": "стричься",
+    "pos": "verb",
+    "forms": {
+      "aorist": "κουρεύτηκα",
+      "future": "θα κουρευτώ"
+    },
+    "conj": "-ομαι",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-25"
+  },
+  {
+    "id": "mplekomai",
+    "el": "μπλέκομαι",
+    "ru": "впутываться, запутываться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "μπλέχτηκα",
+      "future": "θα μπλεχτώ"
+    },
+    "conj": "-ομαι",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-25"
+  },
+  {
+    "id": "stirizomai",
+    "el": "στηρίζομαι",
+    "ru": "опираться, полагаться",
+    "pos": "verb",
+    "forms": {
+      "aorist": "στηρίχτηκα",
+      "future": "θα στηριχτώ"
+    },
+    "conj": "-ομαι",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-09-25"
+  },
+  {
+    "id": "thoryvos",
+    "el": "ο θόρυβος",
+    "ru": "шум",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "ntokimanter",
+    "el": "το ντοκιμαντέρ",
+    "ru": "документальный фильм",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "kyklos",
+    "el": "ο κύκλος",
+    "ru": "круг",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "chymos",
+    "el": "ο χυμός",
+    "ru": "сок",
+    "pos": "noun",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "fasaria",
+    "el": "η φασαρία",
+    "ru": "суматоха, шум",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "sto-telos",
+    "el": "στο τέλος",
+    "ru": "в конце концов",
+    "pos": "phrase",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "eytychos",
+    "el": "ευτυχώς",
+    "ru": "к счастью",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "xafnika",
+    "el": "ξαφνικά",
+    "ru": "внезапно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "peritta",
+    "el": "περιττά",
+    "ru": "напрасно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "pali",
+    "el": "πάλι",
+    "ru": "опять",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "schedon",
+    "el": "σχεδόν",
+    "ru": "почти",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "isychia",
+    "el": "η ησυχία",
+    "ru": "тишина, спокойствие",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "exoterika",
+    "el": "εξωτερικά",
+    "ru": "внешне",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "trelos",
+    "el": "τρελός",
+    "ru": "сумасшедший",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "aplos-2",
+    "el": "απλός",
+    "ru": "простой",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "toso",
+    "el": "τόσο",
+    "ru": "так",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "xanavlepo",
+    "el": "ξαναβλέπω",
+    "ru": "видеть снова, увидеть снова",
+    "pos": "verb",
+    "forms": {
+      "aorist": "ξαναείδα",
+      "future": "θα ξαναδώ"
+    },
+    "conj": "irregular",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "ypogrammizo",
+    "el": "υπογραμμίζω",
+    "ru": "подчёркивать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "υπογράμμισα",
+      "future": "θα υπογραμμίσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "diagrafo",
+    "el": "διαγράφω",
+    "ru": "удалять, стирать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "διέγραψα",
+      "future": "θα διαγράψω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "filoxeno",
+    "el": "φιλοξενώ",
+    "ru": "принимать гостей",
+    "pos": "verb",
+    "forms": {
+      "aorist": "φιλοξένησα",
+      "future": "θα φιλοξενήσω"
+    },
+    "conj": "B2",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "ekeini",
+    "el": "εκείνη",
+    "ru": "та, она (о женщине)",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "poythena",
+    "el": "πουθενά",
+    "ru": "нигде, где-нибудь",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-05"
+  },
+  {
+    "id": "kyvernisi",
+    "el": "η κυβέρνηση",
+    "ru": "правительство",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "skepsi",
+    "el": "η σκέψη",
+    "ru": "мысль",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "analysi",
+    "el": "η ανάλυση",
+    "ru": "анализ",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "logia",
+    "el": "τα λόγια",
+    "ru": "слова",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "koympi",
+    "el": "το κουμπί",
+    "ru": "кнопка",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "techni",
+    "el": "η τέχνη",
+    "ru": "искусство",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "ithopoios",
+    "el": "ο ηθοποιός",
+    "ru": "актёр",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "timi",
+    "el": "η τιμή",
+    "ru": "цена",
+    "pos": "noun",
+    "tags": [
+      "деньги"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "prosochi",
+    "el": "η προσοχή",
+    "ru": "внимание",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "ergatis",
+    "el": "ο εργάτης",
+    "ru": "рабочий",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "allagi",
+    "el": "η αλλαγή",
+    "ru": "изменение",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "vasano",
+    "el": "το βάσανο",
+    "ru": "страдание, мучение",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "katalogos",
+    "el": "ο κατάλογος",
+    "ru": "каталог",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "idea",
+    "el": "η ιδέα",
+    "ru": "идея",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "spasmenos",
+    "el": "σπασμένος",
+    "ru": "сломанный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "exypnos",
+    "el": "έξυπνος",
+    "ru": "умный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-09"
+  },
+  {
+    "id": "soprano",
+    "el": "η σοπράνο",
+    "ru": "сопрано",
+    "pos": "noun",
+    "tags": [
+      "музыка"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "resital",
+    "el": "το ρεσιτάλ",
+    "ru": "сольный концерт",
+    "pos": "noun",
+    "tags": [
+      "музыка"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "programma",
+    "el": "το πρόγραμμα",
+    "ru": "программа",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "kallitechnis",
+    "el": "ο καλλιτέχνης",
+    "ru": "художник, артист",
+    "pos": "noun",
+    "tags": [
+      "музыка"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "synthetis",
+    "el": "ο συνθέτης",
+    "ru": "композитор",
+    "pos": "noun",
+    "tags": [
+      "музыка"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "pentagrammo",
+    "el": "το πεντάγραμμο",
+    "ru": "нотный стан",
+    "pos": "noun",
+    "tags": [
+      "музыка"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "diaskedasi",
+    "el": "η διασκέδαση",
+    "ru": "веселье, развлечение",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "glenti",
+    "el": "το γλέντι",
+    "ru": "веселье, гулянье",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "mylos",
+    "el": "ο μύλος",
+    "ru": "мельница",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "poiisi",
+    "el": "η ποίηση",
+    "ru": "поэзия",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "provoli",
+    "el": "η προβολή",
+    "ru": "показ, трансляция (в кино)",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "theatriki-parastasi",
+    "el": "η θεατρική παράσταση",
+    "ru": "театральное представление",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "ergo",
+    "el": "το έργο",
+    "ru": "работа (писателя, художника, мастера), произведение",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "eisodos",
+    "el": "η είσοδος",
+    "ru": "вход",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "ekdilosi",
+    "el": "η εκδήλωση",
+    "ru": "мероприятие, событие",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "dimotiko-odeio-dramas",
+    "el": "Δημοτικό Ωδείο Δράμας",
+    "ru": "муниципальная консерватория города Драма",
+    "pos": "phrase",
+    "tags": [
+      "музыка"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "perilamvano",
+    "el": "περιλαμβάνω",
+    "ru": "включать, содержать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "περιέλαβα",
+      "future": "θα περιλάβω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
+  },
+  {
+    "id": "dorean",
+    "el": "δωρεάν",
+    "ru": "бесплатно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-13"
   }
 ]

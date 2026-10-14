@@ -20,6 +20,7 @@ const chatIdRaw = env('TELEGRAM_CHAT_ID', false);
 async function tg<T>(method: string, params: Record<string, unknown>): Promise<T> {
   const res = await fetch(`https://api.telegram.org/bot${token}/${method}`, {
     method: 'POST',
+    signal: AbortSignal.timeout(30_000),
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(params),
   });
@@ -33,6 +34,7 @@ const readJson = <T>(p: string, fallback: T): T => (existsSync(p) ? (JSON.parse(
 const writeJson = (p: string, v: unknown) => writeFileSync(p, JSON.stringify(v, null, 2) + '\n');
 
 async function main() {
+  if (chatIdRaw && !Number.isInteger(Number(chatIdRaw))) throw new Error('TELEGRAM_CHAT_ID должен быть числом');
   const { offset } = readJson(STATE, { offset: 0 });
   const updates = await tg<TgUpdate[]>('getUpdates', { offset, timeout: 0, allowed_updates: ['message', 'edited_message'] });
   if (!chatIdRaw) {
@@ -49,9 +51,12 @@ async function main() {
   const newOffset = nextOffset(updates, offset);
 
   let result!: MergeResult;
+  let alreadyPushed = false;
   for (let attempt = 1; ; attempt++) {
     if (attempt > 1) { git('fetch', 'origin', 'main'); git('reset', '--hard', 'origin/main'); }
     result = mergeWords(readJson<Word[]>(WORDS, []), llm.words, dates);
+    // прошлый push мог пройти несмотря на ошибку: слов нет, offset уже сдвинут
+    if (attempt > 1 && !result.added.length && readJson(STATE, { offset: 0 }).offset === newOffset) { alreadyPushed = true; break; }
     result.invalid.forEach((i) => console.warn('Невалидно:', i.word.el, i.errors.join('; ')));
     if (result.added.length) writeJson(WORDS, result.words);
     writeJson(STATE, { offset: newOffset });
@@ -62,6 +67,7 @@ async function main() {
       console.warn(`push отклонён, попытка ${attempt + 1}`);
     }
   }
+  if (alreadyPushed) return console.log('Уже отправлено, ответ пропущен');
   console.log(`Добавлено: ${result.added.length}, дублей: ${result.duplicates.length}`);
   const reply = formatReply(result);
   if (reply) await tg('sendMessage', { chat_id: chatId, text: reply }).catch((e) => console.warn('Ответ не отправлен:', e));

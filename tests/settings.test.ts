@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { DEFAULT_SETTINGS, incNewSeen, loadSettings, newSeenToday, saveSettings } from '../src/lib/settings';
+import { DEFAULT_SETTINGS, incNewSeen, loadPracticeFilter, loadSettings, newSeenToday, savePracticeFilter, saveSettings } from '../src/lib/settings';
+import { emptyFilter } from '../src/lib/filters';
 import { MemStorage } from './memStorage';
 
 describe('settings', () => {
@@ -35,5 +36,31 @@ describe('newSeen counter', () => {
     incNewSeen('el-ru', '2026-10-11', st);
     expect(newSeenToday('el-ru', '2026-10-11', st)).toBe(1);
     expect(newSeenToday('ru-el', '2026-10-11', st)).toBe(0);
+  });
+});
+
+describe('practice filter', () => {
+  it('empty storage -> emptyFilter', () => expect(loadPracticeFilter(new MemStorage())).toEqual(emptyFilter()));
+  it('roundtrip', () => {
+    const st = new MemStorage();
+    const f = { ...emptyFilter(), pos: ['noun' as const], tags: ['еда'], addedBy: ['Маша'], practice: ['not-started' as const] };
+    savePracticeFilter(f, st);
+    expect(loadPracticeFilter(st)).toEqual(f);
+  });
+  it('corrupt JSON -> emptyFilter', () => {
+    const st = new MemStorage();
+    st.setItem('greek.practiceFilter', '{oops');
+    expect(loadPracticeFilter(st)).toEqual(emptyFilter());
+    st.setItem('greek.practiceFilter', '"str"');
+    expect(loadPracticeFilter(st)).toEqual(emptyFilter());
+  });
+  it('drops invalid values of an old or foreign format', () => {
+    const st = new MemStorage();
+    st.setItem('greek.practiceFilter', JSON.stringify({ tags: ['еда', 5], pos: ['noun', 'xxx'], practice: ['bogus'] }));
+    expect(loadPracticeFilter(st)).toEqual({ ...emptyFilter(), tags: ['еда'], pos: ['noun'], practice: [] });
+  });
+  it('save does not throw when setItem throws', () => {
+    const st = { getItem: () => null, setItem: () => { throw new Error('quota'); } };
+    expect(() => savePracticeFilter(emptyFilter(), st)).not.toThrow();
   });
 });

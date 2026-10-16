@@ -1,7 +1,7 @@
 import type { Direction, Grade, PracticeMap, ProgressMap, Word, WordChange } from './types';
 import { progressKey } from './types';
 import { emptyFilter, type WordFilter } from './filters';
-import { incNewSeen, loadSettings, newSeenToday, saveSettings, type Settings } from './settings';
+import { incNewSeen, loadPracticeFilter, loadSettings, newSeenToday, savePracticeFilter, saveSettings, type Settings } from './settings';
 import { newCard, schedule } from './srs';
 import { todayISO } from './date';
 import { applyChange, createDictionaryRepo, DictionaryError, RATE_LIMIT_MESSAGE, type DictionarySnapshot } from './dictionaryRepo';
@@ -21,6 +21,8 @@ export const app = $state({
   practice: {} as PracticeMap,
   practiceSession: null as PracticeSession | null,
   practiceWord: null as Word | null,
+  practiceFilter: loadPracticeFilter(),
+  practicePoolIds: [] as string[], // пул тренировки фиксируется на старте
   settings: loadSettings(),
   direction: 'el-ru' as Direction,
   filter: emptyFilter(),
@@ -124,6 +126,11 @@ export function newLimit(direction: Direction): number {
 export function updateSettings(s: Settings): void {
   app.settings = s;
   saveSettings(s);
+}
+
+export function updatePracticeFilter(f: WordFilter): void {
+  app.practiceFilter = f;
+  savePracticeFilter($state.snapshot(f));
 }
 
 async function forgetProgress(id: string): Promise<void> {

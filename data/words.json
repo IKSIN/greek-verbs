@@ -13285,5 +13285,47 @@
     "source": "user",
     "addedBy": "Telegram",
     "addedAt": "2026-10-14"
+  },
+  {
+    "id": "diorthono",
+    "el": "διορθώνω",
+    "ru": "исправлять",
+    "pos": "verb",
+    "forms": {
+      "aorist": "διόρθωσα",
+      "future": "θα διορθώσω"
+    },
+    "conj": "A",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-29"
+  },
+  {
+    "id": "katoikos",
+    "el": "ο κάτοικος",
+    "ru": "жилец дома, житель",
+    "pos": "noun",
+    "tags": [
+      "дом",
+      "люди"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-29"
+  },
+  {
+    "id": "kefalaios",
+    "el": "κεφαλαίος",
+    "ru": "заглавный (о букве)",
+    "pos": "adj",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-29"
   }
 ]

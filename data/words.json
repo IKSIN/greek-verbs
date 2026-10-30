@@ -13327,5 +13327,54 @@
     "source": "user",
     "addedBy": "Telegram",
     "addedAt": "2026-10-29"
+  },
+  {
+    "id": "mesitis",
+    "el": "ο μεσίτης",
+    "ru": "маклер",
+    "pos": "noun",
+    "tags": [
+      "работа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "aithoysa-kinimatografoy",
+    "el": "η αίθουσα κινηματογράφου",
+    "ru": "зал кинотеатра",
+    "pos": "noun",
+    "tags": [
+      "хобби",
+      "город"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "orario",
+    "el": "το ωράριο",
+    "ru": "расписание",
+    "pos": "noun",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "exoteriko",
+    "el": "το εξωτερικό",
+    "ru": "заграница (στο εξωτερικό — за границей)",
+    "pos": "noun",
+    "tags": [
+      "путешествия"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-30"
   }
 ]

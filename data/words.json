@@ -13376,5 +13376,103 @@
     "source": "user",
     "addedBy": "Telegram",
     "addedAt": "2026-10-30"
+  },
+  {
+    "id": "dermatinos",
+    "el": "δερμάτινος",
+    "ru": "кожаный",
+    "pos": "adj",
+    "tags": [
+      "одежда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-31"
+  },
+  {
+    "id": "monadikos",
+    "el": "μοναδικός",
+    "ru": "уникальный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-31"
+  },
+  {
+    "id": "ekptosi",
+    "el": "η έκπτωση",
+    "ru": "скидка",
+    "pos": "noun",
+    "tags": [
+      "покупки"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-31"
+  },
+  {
+    "id": "yliko",
+    "el": "το υλικό",
+    "ru": "материал",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-31"
+  },
+  {
+    "id": "agnos",
+    "el": "αγνός",
+    "ru": "чистый",
+    "pos": "adj",
+    "tags": [
+      "еда"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-31"
+  },
+  {
+    "id": "ygieinos",
+    "el": "υγιεινός",
+    "ru": "здоровый",
+    "pos": "adj",
+    "tags": [
+      "здоровье"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-31"
+  },
+  {
+    "id": "sovara",
+    "el": "σοβαρά",
+    "ru": "серьёзно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-31"
+  },
+  {
+    "id": "anoichtos",
+    "el": "ανοιχτός",
+    "ru": "открытый",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-31"
+  },
+  {
+    "id": "kleistos",
+    "el": "κλειστός",
+    "ru": "закрытый",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-10-31"
   }
 ]

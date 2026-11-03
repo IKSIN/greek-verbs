@@ -13474,5 +13474,59 @@
     "source": "user",
     "addedBy": "Telegram",
     "addedAt": "2026-10-31"
+  },
+  {
+    "id": "vromia",
+    "el": "η βρωμιά",
+    "ru": "грязь, подлость, махинации",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "poiotita",
+    "el": "η ποιότητα",
+    "ru": "качество",
+    "pos": "noun",
+    "tags": [
+      "покупки"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "emfanisi",
+    "el": "η εμφάνιση",
+    "ru": "появление",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "myrodia",
+    "el": "η μυρωδιά",
+    "ru": "запах, аромат (в основном приятный)",
+    "pos": "noun",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "emporeyma",
+    "el": "το εμπόρευμα",
+    "ru": "товар",
+    "pos": "noun",
+    "tags": [
+      "покупки"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-03"
   }
 ]

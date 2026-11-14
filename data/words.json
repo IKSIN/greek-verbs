@@ -13540,5 +13540,17 @@
     "source": "user",
     "addedBy": "Telegram",
     "addedAt": "2026-11-07"
+  },
+  {
+    "id": "kanarini",
+    "el": "το καναρίνι",
+    "ru": "канарейка",
+    "pos": "noun",
+    "tags": [
+      "животные"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-14"
   }
 ]

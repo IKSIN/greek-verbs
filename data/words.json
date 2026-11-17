@@ -13552,5 +13552,122 @@
     "source": "user",
     "addedBy": "Telegram",
     "addedAt": "2026-11-14"
+  },
+  {
+    "id": "emfasi",
+    "el": "η έμφαση",
+    "ru": "акцент на чём-либо",
+    "pos": "noun",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-17"
+  },
+  {
+    "id": "amesos-2",
+    "el": "άμεσος",
+    "ru": "прямой",
+    "pos": "adj",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-17"
+  },
+  {
+    "id": "antikeimeno",
+    "el": "το αντικείμενο",
+    "ru": "дополнение",
+    "pos": "noun",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-17"
+  },
+  {
+    "id": "proteino",
+    "el": "προτείνω",
+    "ru": "предлагать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "πρότεινα",
+      "future": "θα προτείνω"
+    },
+    "conj": "A",
+    "tags": [
+      "общение"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-17"
+  },
+  {
+    "id": "parastasi",
+    "el": "η παράσταση",
+    "ru": "выступление, представление, спектакль",
+    "pos": "noun",
+    "tags": [
+      "хобби"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-17"
+  },
+  {
+    "id": "charizo",
+    "el": "χαρίζω",
+    "ru": "дарить",
+    "pos": "verb",
+    "forms": {
+      "aorist": "χάρισα",
+      "future": "θα χαρίσω"
+    },
+    "conj": "A",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-17"
+  },
+  {
+    "id": "arnitika",
+    "el": "αρνητικά",
+    "ru": "отрицательно",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-17"
+  },
+  {
+    "id": "megalono",
+    "el": "μεγαλώνω",
+    "ru": "расти",
+    "pos": "verb",
+    "forms": {
+      "aorist": "μεγάλωσα",
+      "future": "θα μεγαλώσω"
+    },
+    "conj": "A",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-17"
+  },
+  {
+    "id": "dystychos",
+    "el": "δυστυχώς",
+    "ru": "к сожалению",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-17"
   }
 ]

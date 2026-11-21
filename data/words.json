@@ -13669,5 +13669,64 @@
     "source": "user",
     "addedBy": "Telegram",
     "addedAt": "2026-11-17"
+  },
+  {
+    "id": "zontanos",
+    "el": "ζωντανός",
+    "ru": "живой",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-20"
+  },
+  {
+    "id": "kapoy",
+    "el": "κάπου",
+    "ru": "где-то, где-нибудь",
+    "pos": "adv",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-20"
+  },
+  {
+    "id": "peitho",
+    "el": "πείθω",
+    "ru": "убеждать",
+    "pos": "verb",
+    "forms": {
+      "aorist": "έπεισα",
+      "future": "θα πείσω"
+    },
+    "conj": "A",
+    "tags": [
+      "общение"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-20"
+  },
+  {
+    "id": "christoygenniatikos",
+    "el": "χριστουγεννιάτικος",
+    "ru": "рождественский",
+    "pos": "adj",
+    "tags": [
+      "праздники"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-20"
+  },
+  {
+    "id": "varetos",
+    "el": "βαρετός",
+    "ru": "скучный",
+    "pos": "adj",
+    "tags": [],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-20"
   }
 ]

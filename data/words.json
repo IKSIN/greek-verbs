@@ -13728,5 +13728,29 @@
     "source": "user",
     "addedBy": "Telegram",
     "addedAt": "2026-11-20"
+  },
+  {
+    "id": "ypogrammisi",
+    "el": "η υπογράμμιση",
+    "ru": "подчёркивание",
+    "pos": "noun",
+    "tags": [
+      "учёба"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-24"
+  },
+  {
+    "id": "tonos",
+    "el": "ο τόνος",
+    "ru": "акцент, ударение",
+    "pos": "noun",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-24"
   }
 ]

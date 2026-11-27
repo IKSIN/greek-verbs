@@ -13752,5 +13752,29 @@
     "source": "user",
     "addedBy": "Telegram",
     "addedAt": "2026-11-24"
+  },
+  {
+    "id": "feggari",
+    "el": "το φεγγάρι",
+    "ru": "луна",
+    "pos": "noun",
+    "tags": [
+      "природа"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-27"
+  },
+  {
+    "id": "epiteloys",
+    "el": "επιτέλους",
+    "ru": "наконец",
+    "pos": "adv",
+    "tags": [
+      "время"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-27"
   }
 ]

@@ -13776,5 +13776,17 @@
     "source": "user",
     "addedBy": "Telegram",
     "addedAt": "2026-11-27"
+  },
+  {
+    "id": "antonymia",
+    "el": "η αντωνυμία",
+    "ru": "местоимение",
+    "pos": "noun",
+    "tags": [
+      "грамматика"
+    ],
+    "source": "user",
+    "addedBy": "Telegram",
+    "addedAt": "2026-11-27"
   }
 ]
